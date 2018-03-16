@@ -3,7 +3,7 @@ import logo from '../logo.svg'
 class NavBar extends Component{
     render(){
         return(
-            <nav className="navbar navbar-expand-lg navbar-light" id='navBar'>
+            <nav className="navbar fixed-top navbar-expand-lg navbar-light" id='navBar'>
                 <a className="navbar-brand" href="/"><img src={logo} alt='ardent-logo'/></a>
                 <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
