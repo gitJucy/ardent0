@@ -4,7 +4,9 @@ class Landing extends Component {
     render() {
         return (
             <div className='landing container-fluid'>
-                <h1>ARDENT</h1>
+                <div classsName='landhead'>
+                    <h1>ARDENT</h1>
+                </div>
             </div>
         );
     }

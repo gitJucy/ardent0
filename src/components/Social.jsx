@@ -5,14 +5,22 @@ import twt from '../img/Twitter.svg'
 class Social extends Component {
     render() {
         return (
-            <div className='social-wrapper container-fluid'>
-                <div className='row justify-content-center'>
-                    <div className='col-sm buff'></div>
-                    <div className='col-sm-1'><a href='#'><img src={fb} alt='facebook'/></a></div>
-                    <div className='col-sm-1'><a href='#'><img src={ig} alt='instagram'/></a></div>
-                    <div className='col-sm-1'><a href='#'><img src={twt} alt='twitter'/></a></div>
-                    <div className='col-sm buff'></div>
+            <div className='container-fluid social-wrapper'>
+                <div className='d-flex justify-content-center'>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src={fb}/></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src={ig}/></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src={twt}/></a>
+                        </li>
+                    </ul>
                 </div>
+
+               
             </div>
         );
     }

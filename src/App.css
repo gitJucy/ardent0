@@ -26,14 +26,11 @@
   margin:0px;
   min-height:100vh;
   width:auto;
+  justify-content: center;
 }
-.landing>h1{
-  position:absolute;
-  top:50vh;
-  left:45vw;
-  color:rgb(255,255,255);
-  font-size: 6vw;
-
+.landhead{
+  max-width:25vw;
+  margin: 0 auto;
 }
 .about-box{
   max-height:100vh;
@@ -63,12 +60,13 @@
   text-align: center;
 }
 .social-wrapper{
-  height:10vh;
-  text-align: center;
+  position:relative;
+  height:8vh;
   padding-bottom:4vh;
 }
 .social-wrapper img{
-  height:15vh;
+  height:10vh;
+  margin:1vh;
 }
 /*media queries */
 
