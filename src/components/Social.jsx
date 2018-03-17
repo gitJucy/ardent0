@@ -9,13 +9,13 @@ class Social extends Component {
                 <div className='d-flex justify-content-center'>
                     <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img src={fb}/></a>
+                            <a class="nav-link" href="#"><img src={fb}alt='facebook'/></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img src={ig}/></a>
+                            <a class="nav-link" href="#"><img src={ig} alt='instagram'/></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img src={twt}/></a>
+                            <a class="nav-link" href="#"><img src={twt} alt='twitter'/></a>
                         </li>
                     </ul>
                 </div>

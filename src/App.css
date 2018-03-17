@@ -16,7 +16,6 @@
 #navbarNavDropdown a{
   padding-right:1.5em;
 }
-
 .landing{
   background-image:url('https://s3.amazonaws.com/ardentindustrial/bg.png');
   background-size: cover;
@@ -26,11 +25,11 @@
   margin:0px;
   min-height:100vh;
   width:auto;
-  justify-content: center;
+  
 }
-.landhead{
-  max-width:25vw;
-  margin: 0 auto;
+.landing>h1{
+  color: rgb(255,255,255);
+  font-size:10vw;
 }
 .about-box{
   max-height:100vh;
@@ -68,6 +67,8 @@
   height:10vh;
   margin:1vh;
 }
+
+
 /*media queries */
 
 @media (max-width:1023px){
@@ -75,7 +76,6 @@
    min-width:90vw;
    margin-top:-5vh;
    margin-bottom:12vh;
-   
  }
   .abpic, .buffer{
     display: none;
@@ -83,5 +83,4 @@
   .social-wrapper img{
     height:6vh;
   }
-  
 }
