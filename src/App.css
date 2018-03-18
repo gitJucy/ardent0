@@ -1,12 +1,13 @@
 /*sets body parameters*/
 .main{
-  min-width:400px;
+  min-width:360px;
 }
 /*navigation styles*/
 #navBar{
   height:8em;
   min-width:100vw;
   background-color: rgb(255,255,255);
+  padding-right:2vw;
 }
 #navbarNavDropdown{
   background: rgb(255,255,255);
@@ -137,6 +138,18 @@
   background-position: center;
   box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
 }
+/*footer styling*/
+.footer{
+  min-height:10vh;
+  max-width:100vw;
+  color:white;
+  background-image:url('./img/steel.jpeg');
+  background-color: #3D3D3D;
+  background-blend-mode: multiply;
+  padding: 1vh 4vw;
+  
+} 
+
 
 /*responsive styling */
 
@@ -163,6 +176,13 @@
     height:auto;
     max-width:80vw;
   }
+  .footer{
+    min-height:5vh;
+    min-width:100vw;
+    color:white;
+    background-color: #3D3D3D;
+    
+  } 
   
   
 }

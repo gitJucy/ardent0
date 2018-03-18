@@ -7,6 +7,7 @@ import Rentals from './pages/Rentals'
 import Service from './pages/Service'
 import Parts from './pages/Parts'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 class App extends Component {
   render() {
     return (
@@ -18,6 +19,7 @@ class App extends Component {
          <Route path='/rentals' component={Rentals}/>
          <Route path='/service' component={Service}/>
          <Route path='/parts' component={Parts}/>
+         <Footer/>
       </div>
      </Router>
     );
