@@ -85,6 +85,7 @@
   margin-top:1vw;
   color:rgb(255,255,255);
   text-shadow:2px 2px 5px rgba(0,0,0,0.9);
+  padding-left:1vw;
 }
 .box1{
   background-color: #3D3D3D;
@@ -153,4 +154,8 @@
   .social-wrapper img{
     height:6vh;
   }
+  .box1, .box2, .box3, .box4, .box5, .box6{
+    width:100vw;
+  }
+  
 }
