@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Home from './components/Home'
-import Sales from './components/Sales'
-import Rentals from './components/Rentals'
-import Service from './components/Service'
-import Parts from './components/Parts'
+import Home from './pages/Home'
+import Sales from './pages/Sales'
+import Rentals from './pages/Rentals'
+import Service from './pages/Service'
+import Parts from './pages/Parts'
 import NavBar from './components/NavBar'
 class App extends Component {
   render() {
@@ -18,7 +18,7 @@ class App extends Component {
          <Route path='/rentals' component={Rentals}/>
          <Route path='/service' component={Service}/>
          <Route path='/parts' component={Parts}/>
-        </div>
+      </div>
      </Router>
     );
   }

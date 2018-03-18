@@ -1,9 +1,11 @@
+/*sets body parameters*/
 .main{
   min-width:400px;
 }
+/*navigation styles*/
 #navBar{
   height:8em;
-  max-width:100vw;
+  min-width:100vw;
   background-color: rgb(255,255,255);
 }
 #navbarNavDropdown{
@@ -16,6 +18,7 @@
 #navbarNavDropdown a{
   padding-right:1.5em;
 }
+/*home page landing screen*/
 .landing{
   background-image:url('https://s3.amazonaws.com/ardentindustrial/bg.png');
   background-size: cover;
@@ -29,8 +32,9 @@
 }
 .landing>h1{
   color: rgb(255,255,255);
-  font-size:10vw;
+  font-size:6vw;
 }
+/*styles for second page scrolled down on home page*/
 .about-box{
   max-height:100vh;
   width:auto;
@@ -58,18 +62,78 @@
   padding:18vh 8vh;
   text-align: center;
 }
+/*social media links styling*/
 .social-wrapper{
   position:relative;
-  height:8vh;
+  height:20vh;
   padding-bottom:4vh;
 }
 .social-wrapper img{
   height:10vh;
   margin:1vh;
 }
+/*site navigation photos*/
+.MenuBlock-wrapper{
+  height:100vh;
+  padding:5vw;
+}
+.box1, .box2, .box3, .box4, .box5, .box6{
+  min-height:40vh;
+  width:auto;
+  margin-top:1vw;
+  color:rgb(255,255,255);
+  text-shadow:2px 2px 5px rgba(0,0,0,0.9);
+}
+.box1{
+  background-color: #3D3D3D;
+  background-image: url('./img/clarknew.jpg');
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+}
+.box2{
+  background-color: #3D3D3D;
+  background-image: url('./img/used.jpg');
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+}
+.box3{
+  background-color: #3D3D3D;
+  background-image: url('./img/new.jpeg');
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+}
+.box4{
+  background-color: #3D3D3D;
+  background-image: url('./img/service.jpeg');
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+}
+.box5{
+  background-color: #3D3D3D;
+  background-image: url('./img/parts.jpg');
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+}
+.box6{
+  background-color: #3D3D3D;
+  background-image: url('./img/contact.jpeg');
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+}
 
-
-/*media queries */
+/*responsive styling */
 
 @media (max-width:1023px){
  .wording-main{
@@ -77,6 +141,10 @@
    margin-top:-5vh;
    margin-bottom:12vh;
  }
+ .landing>h1{
+  font-size:10vw;
+}
+
   .abpic, .buffer{
     display: none;
   }
