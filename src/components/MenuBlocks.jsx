@@ -4,7 +4,7 @@ class MenuBlock extends Component {
     render() {
         return (
             <div className='container-fluid MenuBlock-wrapper'>
-                <div className='row row1 d-flex justify-content-center'>
+                <div className='row row1 d-flex justify-content-center align-items-center'>
                     <div className='col-sm'>
                         <div className='box1'>
                             <h1>New Sales</h1>
@@ -21,7 +21,7 @@ class MenuBlock extends Component {
                         </div>
                     </div>
                 </div>
-                <div className='row row2 d-flex justify-content-center'>
+                <div className='row row2 d-flex justify-content-center align-items-center'>
                     <div className='col-sm'>
                         <div className='box4'>
                             <h1>Service</h1>
