@@ -43,8 +43,8 @@
 .abpic{
   width:40vw;
   display:inline-block;
-  background-color: #3D3D3D;
   background-image: url('./img/team.jpeg');
+  background-color: #3D3D3D;
   background-size:cover ;
   background-repeat: no-repeat;
   background-position: center;
@@ -55,7 +55,9 @@
 }
 .wording-main{
   width:40vw;  
+  background-image:url('./img/steel.jpeg');
   background-color: #3D3D3D;
+  background-blend-mode: multiply;
   color: rgb(255,255,255);
   font-size: 2vh;
   box-shadow: 8px 10px 10px rgba(0,0,0,0.4);
