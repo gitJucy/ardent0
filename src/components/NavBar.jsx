@@ -1,5 +1,9 @@
 import React, {Component} from 'react'
 import logo from '../logo.svg'
+import fb from '../img/Facebook.svg'
+import ig from '../img/Instagram.svg'
+import twt from '../img/Twitter.svg'
+
 class NavBar extends Component{
     render(){
         return(
@@ -9,7 +13,7 @@ class NavBar extends Component{
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul className="navbar-nav ml-auto" >
+                    <ul className="navbar-nav ml-auto navbuttons align-items-center" >
                     <li className="nav-item">
                         <a className="nav-link" href="/sales">Sales </a>
                     </li>
@@ -25,7 +29,15 @@ class NavBar extends Component{
                     <li>
                         <span className='navbar-text'>(123) 456-7890</span>
                     </li>
-
+                    <li class="nav-item">
+                            <a class="nav-link" href="#"><img src={fb}alt='facebook'/></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src={ig} alt='instagram'/></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src={twt} alt='twitter'/></a>
+                        </li>
                     </ul>
                 </div>
             </nav>

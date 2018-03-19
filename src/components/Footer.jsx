@@ -1,9 +1,10 @@
 import React, {Component} from 'react'
+import Social from '../components/Social'
 class Footer extends Component{
     render(){
         return(
             <div className='footer container-fluid'>
-                <div className='row justify-content-center align-items-center'>
+                <div className='row justify-content-center align-items-end'>
                     <div className='col-xs-6 mr-auto'>
                         <ul className='list-unstyled'>
                             <li class>Ardent Industrial Equipment</li>
@@ -14,7 +15,7 @@ class Footer extends Component{
                         </ul>
                     </div>
                     <div className='col-xs-6 ml-auto'>
-                        <p>all content &copy; ardent 2018</p>
+                    <Social/>
                     </div>
                 </div>
             </div>

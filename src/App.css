@@ -2,6 +2,10 @@
 .main{
   min-width:360px;
 }
+.content{
+  margin-top:14vh;
+  text-align:center;
+}
 /*navigation styles*/
 #navBar{
   height:8em;
@@ -44,7 +48,7 @@
 .abpic{
   width:40vw;
   display:inline-block;
-  background-image: url('./img/team.jpeg');
+  background-image: url('./img/clarkaction.jpg');
   background-color: #3D3D3D;
   background-size:cover ;
   background-repeat: no-repeat;
@@ -66,13 +70,11 @@
   text-align: center;
 }
 /*social media links styling*/
-.social-wrapper{
-  position:relative;
-  height:20vh;
-  padding-bottom:4vh;
+.navbuttons{
+  text-align: center;
 }
-.social-wrapper img{
-  height:10vh;
+.navbuttons img{
+  height:4vh;
   margin:1vh;
 }
 /*site navigation photos*/
@@ -147,13 +149,99 @@
   background-color: #3D3D3D;
   background-blend-mode: multiply;
   padding: 1vh 4vw;
-  
 } 
+/*sales page stytling*/
+.sales-wrapper{
+  max-height:180vh;
+  background-color:rgb(200,200,200);
+}
+.sales-txt{
+  padding:10vw;
+}
+.sales-img{
+  background-image:url('./img/sales1.jpg');
+  background-size:cover;
+  min-height:20vw;
+  min-width:20vw;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+  
+}
+.featured-img{
+  min-height:20vw;
+  background-image: url('./img/fork1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
+.img-wrapper{
+  padding:2vw;
+}
+.row0{
+  height:10vw;
+  
+  
+}
+.row1{
+  height:10vw;
+  
+}
+.img0, .img1, .img2, .img3, .img4, .img5, .img6, .img7{
+  margin:2vw;
+}
+.img0{
+  background-image: url('./img/fork8.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+.img1{
+  background-image: url('./img/fork0.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.img2{
+  background-image: url('./img/fork2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.img3{
+  background-image: url('./img/fork3.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.img4{
+  background-image: url('./img/fork9.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.img5{
+  background-image: url('./img/fork5.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.img6{
+  background-image: url('./img/fork6.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.img7{
+  background-image: url('./img/fork7.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
 
 
 /*responsive styling */
 
 @media (max-width:1023px){
+  
   .wording-main{
    min-width:90vw;
    margin-top:-5vh;
@@ -183,6 +271,16 @@
     background-color: #3D3D3D;
     
   } 
+  .content{
+    margin-top:20vh;
+  }
+  .sales-img{
+    max-width:60vw;
+    min-height:30vh;
+  }
+  .sales-txt{
+    padding:2vw;
+  }
   
   
 }

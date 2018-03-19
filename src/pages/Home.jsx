@@ -10,7 +10,6 @@ class Home extends Component {
             <div className='main container-fluid'>
                 <Landing/>
                 <About/>
-                <Social/>
                 <MenuBlock/>
             </div>
         );

@@ -5,7 +5,8 @@ import twt from '../img/Twitter.svg'
 class Social extends Component {
     render() {
         return (
-            <div className='container-fluid social-wrapper'>
+            <div className='container-fluid navbuttons'>
+                <h3>Follow Us On Social Media</h3>
                 <div className='d-flex justify-content-center'>
                     <ul class="nav">
                         <li class="nav-item">
@@ -19,8 +20,8 @@ class Social extends Component {
                         </li>
                     </ul>
                 </div>
+                <p>content &copy; 2018 Ardent</p>
 
-               
             </div>
         );
     }
