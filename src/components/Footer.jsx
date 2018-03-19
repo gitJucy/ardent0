@@ -5,13 +5,13 @@ class Footer extends Component{
         return(
             <div className='footer container-fluid'>
                 <div className='row justify-content-center align-items-end'>
-                    <div className='col-xs-6 mr-auto'>
+                    <div className='col-xs-6 mr-auto addyul'>
                         <ul className='list-unstyled'>
                             <li class>Ardent Industrial Equipment</li>
                             <li class>123 Forklift Drive</li>
                             <li class>Savannah GA 31322</li>
                             <li class>p:(123)456-7890</li>
-                            <li class>e:KChastain@ardentie.com</li>
+                            <li class>e: contact@ardentie.com</li>
                         </ul>
                     </div>
                     <div className='col-xs-6 ml-auto'>

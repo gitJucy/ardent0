@@ -3,7 +3,7 @@ class About extends Component {
     render() {
         return (
             <div className='container-fluid about-box'>
-                <div className='row justify-content-center'>
+                <div className='row d-flex justify-content-center'>
                     <div className='col-sm-5 abpic'>
                     </div>
                     <div className='col-sm-1 buffer'></div>

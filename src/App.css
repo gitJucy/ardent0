@@ -6,9 +6,12 @@
   margin-top:14vh;
   text-align:center;
 }
+#logo{
+height:12vh;
+}
 /*navigation styles*/
 #navBar{
-  height:8em;
+  height:15vh;
   min-width:100vw;
   background-color: rgb(255,255,255);
   padding-right:2vw;
@@ -23,6 +26,9 @@
 #navbarNavDropdown a{
   padding-right:1.5em;
 }
+.navbar-toggler-icon{
+  height:6vh;
+}
 /*home page landing screen*/
 .landing{
   background-image:url('https://s3.amazonaws.com/ardentindustrial/bg.png');
@@ -30,7 +36,7 @@
   background-attachment: fixed;
   background-position: center;
   padding:0px;
-  margin:0px;
+  margin-bottom:2vh;
   min-height:100vh;
   width:auto;
   
@@ -43,7 +49,7 @@
 .about-box{
   max-height:100vh;
   width:auto;
-  padding:10vh 0;
+  margin-top:10vh;
 }
 .abpic{
   width:40vw;
@@ -68,6 +74,7 @@
   box-shadow: 8px 10px 10px rgba(0,0,0,0.4);
   padding:18vh 8vh;
   text-align: center;
+  margin-bottom:0px;
 }
 /*social media links styling*/
 .navbuttons{
@@ -87,7 +94,7 @@
 .box1, .box2, .box3, .box4, .box5, .box6{
   height:40vh;
   width:auto;
-  margin-top:1vw;
+  margin-top:4vw;
   color:rgb(255,255,255);
   text-shadow:2px 2px 5px rgba(0,0,0,0.9);
   padding-left:1vw;
@@ -149,11 +156,12 @@
   background-color: #3D3D3D;
   background-blend-mode: multiply;
   padding: 1vh 4vw;
+  margin-top:2vh;
 } 
 /*sales page stytling*/
 .sales-wrapper{
   max-height:180vh;
-  background-color:rgb(200,200,200);
+  background:linear-gradient(white,lightgray));
 }
 .sales-txt{
   padding:10vw;
@@ -168,7 +176,7 @@
 }
 .featured-img{
   min-height:20vw;
-  background-image: url('./img/fork1.png');
+  background-image: url('./img/fork7.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -231,7 +239,7 @@
 
 }
 .img7{
-  background-image: url('./img/fork7.png');
+  background-image: url('./img/fork1.png');
   background-repeat: no-repeat;
   background-size: contain;
 
@@ -269,8 +277,12 @@
     min-width:100vw;
     color:white;
     background-color: #3D3D3D;
-    
+    padding:0 8vh;
   } 
+  .addyul{
+    margin-left:auto;
+    text-align: center;
+  }
   .content{
     margin-top:20vh;
   }
