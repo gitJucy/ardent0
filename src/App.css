@@ -7,11 +7,13 @@
   text-align:center;
 }
 #logo{
-height:12vh;
+height:8vh;
 }
+
+
 /*navigation styles*/
 #navBar{
-  height:15vh;
+  height:10vh;
   min-width:100vw;
   background-color: rgb(255,255,255);
   padding-right:2vw;
@@ -29,6 +31,8 @@ height:12vh;
 .navbar-toggler-icon{
   height:6vh;
 }
+
+
 /*home page landing screen*/
 .landing{
   background-image:url('https://s3.amazonaws.com/ardentindustrial/bg.png');
@@ -41,10 +45,15 @@ height:12vh;
   width:auto;
   
 }
-.landing>h1{
-  color: rgb(255,255,255);
-  font-size:6vw;
+.heading-anim h2{
+  color:white;
+  font-size:3vw;
 }
+.heading-anim h3{
+  color:white;
+  font-size:1vw;
+}
+
 /*styles for second page scrolled down on home page*/
 .about-box{
   max-height:100vh;
@@ -76,6 +85,8 @@ height:12vh;
   text-align: center;
   margin-bottom:0px;
 }
+
+
 /*social media links styling*/
 .navbuttons{
   text-align: center;
@@ -84,6 +95,8 @@ height:12vh;
   height:4vh;
   margin:1vh;
 }
+
+
 /*site navigation photos*/
 .MenuBlock-wrapper{
   height:100vh;
@@ -147,6 +160,8 @@ height:12vh;
   background-position: center;
   box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
 }
+
+
 /*footer styling*/
 .footer{
   min-height:10vh;
@@ -158,6 +173,8 @@ height:12vh;
   padding: 1vh 4vw;
   margin-top:2vh;
 } 
+
+
 /*sales page stytling*/
 .sales-wrapper{
   max-height:180vh;
@@ -172,7 +189,6 @@ height:12vh;
   min-height:20vw;
   min-width:20vw;
   box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
-  
 }
 .featured-img{
   min-height:20vw;
@@ -187,12 +203,9 @@ height:12vh;
 }
 .row0{
   height:10vw;
-  
-  
 }
 .row1{
   height:10vw;
-  
 }
 .img0, .img1, .img2, .img3, .img4, .img5, .img6, .img7{
   margin:2vw;
@@ -201,7 +214,6 @@ height:12vh;
   background-image: url('./img/fork8.png');
   background-repeat: no-repeat;
   background-size: contain;
-  
 }
 .img1{
   background-image: url('./img/fork0.png');
@@ -212,42 +224,42 @@ height:12vh;
   background-image: url('./img/fork2.png');
   background-repeat: no-repeat;
   background-size: contain;
-
 }
 .img3{
   background-image: url('./img/fork3.png');
   background-repeat: no-repeat;
   background-size: contain;
-
 }
 .img4{
   background-image: url('./img/fork9.png');
   background-repeat: no-repeat;
   background-size: contain;
-
 }
 .img5{
   background-image: url('./img/fork5.png');
   background-repeat: no-repeat;
   background-size: contain;
-
 }
 .img6{
   background-image: url('./img/fork6.png');
   background-repeat: no-repeat;
   background-size: contain;
-
 }
 .img7{
   background-image: url('./img/fork1.png');
   background-repeat: no-repeat;
   background-size: contain;
+}
 
+
+/*Brand slider*/
+.brand-slide{
+  width:80vw;
+  height:20vh;
 }
 
 
 /*responsive styling */
-
 @media (max-width:1023px){
   
   .wording-main{
@@ -258,7 +270,6 @@ height:12vh;
  .landing>h1{
   font-size:10vw;
 }
-
   .abpic, .buffer{
     display: none;
   }
@@ -293,6 +304,4 @@ height:12vh;
   .sales-txt{
     padding:2vw;
   }
-  
-  
 }
