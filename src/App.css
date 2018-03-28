@@ -43,20 +43,18 @@ height:8vh;
   margin-bottom:2vh;
   min-height:100vh;
   width:auto;
-  
 }
 .heading-anim h2{
   color:white;
   font-size:3vw;
-  text-shadow: 1px 1px 10px rgba(0,0,0,0.8);
-  
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.8);  
 }
 .heading-anim h3{
   color:white;
   font-size:1vw;
   text-shadow: 1px 1px 10px rgba(0,0,0,0.8);
-  
 }
+
 
 /*styles for second page scrolled down on home page*/
 .about-box{
@@ -254,12 +252,13 @@ height:8vh;
   background-repeat: no-repeat;
   background-size: contain;
 }
-
+#ss{
+  max-width:20vw;
+}
 
 /*Brand slider*/
 .brand-slide{
-  width:80vw;
-  height:20vh;
+  height:10vh;
 }
 
 
@@ -270,10 +269,13 @@ height:8vh;
    min-width:90vw;
    margin-top:-5vh;
    margin-bottom:12vh;
- }
- .landing>h1{
-  font-size:10vw;
-}
+  }
+  .heading-anim h2{
+    font-size:4vh;
+  }
+  .heading-anim h3{
+    font-size:2vh;
+  }
   .abpic, .buffer{
     display: none;
   }

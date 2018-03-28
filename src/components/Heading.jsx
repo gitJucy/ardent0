@@ -10,7 +10,7 @@ class Heading extends Component{
                 <Fade duration={1000} delay={2500}>
                     <h2>Evolved</h2>
                 </Fade>
-                <Fade duration={1000} delay={3500}>
+                <Fade duration={250} delay={3500}>
                     <h3>&trade;</h3>
                 </Fade>
 

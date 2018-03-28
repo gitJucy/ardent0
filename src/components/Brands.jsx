@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-import Slider from 'react-slick'
+import {Carousel} from 'react-responsive-carousel'
+import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
 import clark from '../img/brands/clark.png'
 import crown from '../img/brands/crown.png'
 import hangcha from '../img/brands/hangcha.png'
@@ -14,35 +15,29 @@ import uni from '../img/brands/unicarrier.png'
 class Brands extends Component{
     render(){
         let settings={
-            autoplay:true,
-            dots: false,
-            infinite: true,
-            speed: 800,
-            slidesToShow:4,
-            arrows:false,
-            centerMode: true,
-            responsive:[
-                {
-                    breakpoint:768, settings:{slidesToShow:1}
-                }
-            ],
-         };
-        return(
-            <div classname='container-fluid'>
-                <h2>We proudly carry these top brands</h2><br/><br/>
-                <Slider {...settings} className='container-fluid'>
-                    <div className='slide'><img src={clark}/></div>
-                    <div className='slide'><img src={crown}/></div>
-                    <div className='slide'><img src={hangcha}/></div>
-                    <div className='slide'><img src={heli}/></div>
-                    <div className='slide'><img src={hyster}/></div>
-                    <div className='slide'><img src={kion}/></div>
-                    <div className='slide'><img src={komatsu}/></div>
-                    <div className='slide'><img src={mitsu}/></div>
-                    <div className='slide'><img src={toyota}/></div>
-                    <div className='slide'><img src={uni}/></div>
-                </Slider>
-            </div>
+            showThumbs:false,
+            showArrows:false,
+            showIndicators:false,
+            showStatus:false,
+            infiniteLoop:true,
+            autoPlay:true,
+            interval:'2000',
+            width:'10vh',
+            dynamicHeight:true,
+        };
+            return(
+                <Carousel {...settings}>
+                   <img src={clark}/>
+                   <img src={crown}/>
+                   <img src={hangcha}/>
+                   <img src={heli}/>
+                   <img src={hyster}/>
+                   <img src={kion}/>
+                   <img src={komatsu}/>
+                   <img src={mitsu}/>
+                   <img src={toyota}/>
+                   <img src={uni}/>
+                </Carousel>
         );
     }
 }

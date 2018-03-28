@@ -1,5 +1,6 @@
 import React ,{Component} from 'react'
-import ss from '../img/brands/images.png'
+import ss from '../img/brands/S-Series.png'
+import Brands from '../components/Brands'
 class Sales extends Component {
     render() {
         return (
@@ -15,9 +16,11 @@ class Sales extends Component {
                            <p className='sales-txt'>In tollit nonumes vis, sumo lobortis per ex. Ne diam saperet usu, et vix laudem signiferumque. Tamquam persecuti qui an. Te eam dolorem iudicabit necessitatibus, no ponderum interpretaris mel, nec ut essent comprehensam. </p>
                         </div>
                     </div>
-                    <div className='container-fluid brand-slide'>
+                    <div className='brand-slide d-flex justify-content-center'>
+                    <h3>We Proudly Sell  </h3>
+                        <Brands />
                     </div>
-                    <h3>We have the new <img src={ss}/> from Clark in stock and ready to demo!</h3>
+                    <h3>We have the new <img id='ss'src={ss}/> from Clark in stock and ready to demo!</h3>
                     <div className='row img-wrapper'>
                         <div className='col col-sm-4 featured-img'></div>
                         
