@@ -6,7 +6,7 @@ import MenuBlock from '../components/MenuBlocks'
 class Home extends Component {
     render() {
         return (
-            <div className='main container-fluid'>
+            <div className='container-fluid'>
                 <Landing/>
                 <About/>
                 <MenuBlock/>
