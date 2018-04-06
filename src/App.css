@@ -207,10 +207,9 @@ height:8vh;
 .img-wrapper{
   background-image:url('./img/bg2.jpg');
   background-size: cover;
-
   padding:2vw;
   min-height:20vh;
-  margin-bottom:5vh;
+  margin-bottom:10vh;
 }
 .row0{
   height:10vw;
@@ -341,6 +340,9 @@ height:8vh;
   }
   .sales-txt{
     padding:10vw;
+  }
+  .img-wrapper{
+    margin-bottom:6vh;
   }
   
   .sales-img{
