@@ -1,29 +1,30 @@
 import React ,{Component} from 'react'
 import ss from '../img/brands/S-Series.png'
-import Brands from '../components/Brands'
 class Sales extends Component {
     render() {
         return (
             <div className='content container-fluid'>
                 <div className='sales-wrapper'>
-                    <h1>Sales</h1>
+                    <h1>New Equipment</h1>
                     <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm '>
-                            <p className='sales-txt'>Lorem ipsum dolor sit amet, mel prompta corrumpit te, aeque habemus principes vis in, soluta scriptorem at vim. Eam tamquam repudiare mediocritatem ei. Omittam detracto eu ius. Sale graece nam ei, eam ex ferri epicuri. Detracto sententiae ullamcorper qui ut, stet clita adversarium in vis, no ius unum debitis tractatos.</p>
+                            <p className='sales-txt'>Dynamic Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, and Cascade’s renowned attachments allow us to fill your material handling needs.<br/>
+                            Ardent provides preventative maintenance, total maintenance, and all warranty services to ensure keeping your equipment optimal and running efficiently is easy.<br/>
+                            Your experience before, during and after your purchase is our focus. We will lift with you for years to come.
+                            </p>
                         </div>
                         <div className='col-sm sales-img'></div>
                         <div className='col-sm'>
-                           <p className='sales-txt'>In tollit nonumes vis, sumo lobortis per ex. Ne diam saperet usu, et vix laudem signiferumque. Tamquam persecuti qui an. Te eam dolorem iudicabit necessitatibus, no ponderum interpretaris mel, nec ut essent comprehensam. </p>
+                           <p className='sales-txt'>We have carefully selected our partners to best serve you. <br/>
+                            <strong>Clark</strong> – The original inventor of the forklift has now reinvented themselves with cutting edge equipment to meet every need and has the support infrastructure to keep you running. <br/>
+                            <strong>JLG</strong> – As the world’s leading designer and manufacturer of access equipment, JLG helps us go above and beyond to support our clients.  <br/>
+                            <strong>Cascade</strong> – A global leader in the design, manufacture and marketing of materials handling equipment and related technologies, Cascade products reliably get the job done, whatever that job may be. 
+                            </p>
                         </div>
-                    </div>
-                    <div className='brand-slide d-flex justify-content-center'>
-                    <h3>We Proudly Sell  </h3>
-                        <Brands />
                     </div>
                     <h3>We have the new <img id='ss'src={ss}/> from Clark in stock and ready to demo!</h3>
                     <div className='row img-wrapper'>
                         <div className='col col-sm-4 featured-img'></div>
-                        
                         <div className='col-sm-8'>
                             <div className='row0 d-flex justify content-around'>
                                 <div className='col-sm-2 img0'></div>

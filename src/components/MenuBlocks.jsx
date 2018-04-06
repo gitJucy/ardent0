@@ -7,12 +7,12 @@ class MenuBlock extends Component {
                 <div className='d-flex row justify-content-around'>
                     <div className='col-sm'>
                         <Link to='/sales'><div className='box1'>
-                            <h1>New Sales</h1>
+                            <h1>New</h1>
                         </div></Link>
                     </div>
                     <div className='col-sm'>
                     <Link to='/sales'><div className='box2'>
-                            <h1>Used Sales</h1>
+                            <h1>Used</h1>
                         </div></Link>
                     </div>
                     <div className='col-sm'>
@@ -24,12 +24,12 @@ class MenuBlock extends Component {
                 <div className='d-flex row justify-content-around'>
                     <div className='col-sm'>
                     <Link to='/service'><div className='box4'>
-                            <h1>Service</h1>
+                            <h1>Service/Parts</h1>
                         </div></Link>
                     </div>
                     <div className='col-sm'>
-                    <Link to='/parts'><div className='box5'>
-                            <h1>Parts</h1>
+                    <Link to='/warranty'><div className='box5'>
+                            <h1>Warranties</h1>
                         </div></Link>
                     </div>
                     <div className='col-sm'>

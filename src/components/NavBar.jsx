@@ -12,20 +12,24 @@ class NavBar extends Component{
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav ml-auto navbuttons align-items-center" >
-                    <li className="nav-item">
-                        <Link to='/sales' className="nav-link">Sales </Link>
+                    <li className="nav-item dropdown">
+                        <a href='#' className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Equipment</a>
+                        <div className='dropdown-menu'aria-labelledby="navbarDropdown">
+                            <Link to='/sales' className="nav-link">New Equipment</Link>
+                            <Link to='/used' className="nav-link">Used Equipment</Link>
+                        </div>
                     </li>
                     <li className="nav-item">
-                        <Link to='/rentals' className="nav-link">Rentals</Link>
+                        <Link to='/rentals' className="nav-link" >Rentals</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/service' className="nav-link">Service</Link>
+                        <Link to='/service' className="nav-link">Parts/ Service</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/parts' className="nav-link">Parts</Link>
+                        <Link to='/warranty' className="nav-link">Warranties</Link>
                     </li>
                     <li>
-                        <span className='navbar-text'>(123) 456-7890</span>
+                        <span className='navbar-text'>(888) 999-8066</span>
                     </li>
                     </ul>
                 </div>

@@ -8,10 +8,10 @@ class Footer extends Component{
                     <div className='col-xs-6 mr-auto addyul'>
                         <ul className='list-unstyled'>
                             <li class>Ardent Industrial Equipment</li>
-                            <li class>123 Forklift Drive</li>
-                            <li class>Savannah GA 31322</li>
-                            <li class>p:(123)456-7890</li>
-                            <li class>e: contact@ardentie.com</li>
+                            <li class>114 Owens Industrial Drive</li>
+                            <li class>Savannah GA 31405</li>
+                            <li class>p:888-999-8066</li>
+                            <li class>e: contact@ardentequipment.com</li>
                         </ul>
                     </div>
                     <div className='col-xs-6 ml-auto'>

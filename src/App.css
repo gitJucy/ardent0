@@ -5,8 +5,10 @@
   min-width:360px;
 }
 .content{
+  position:relative;
   margin-top:14vh;
   text-align:center;
+  font-size:2vh;
 }
 #logo{
 height:8vh;
@@ -31,7 +33,7 @@ height:8vh;
   padding-right:1.5em;
 }
 .navbar-toggler-icon{
-  height:6vh;
+  height:4vh;
 }
 
 
@@ -142,7 +144,7 @@ height:8vh;
 }
 .box4{
   background-color: #3D3D3D;
-  background-image: url('./img/service.jpeg');
+  background-image: url('./img/parts1.jpg');
   background-size:cover ;
   background-repeat: no-repeat;
   background-position: center;
@@ -150,7 +152,7 @@ height:8vh;
 }
 .box5{
   background-color: #3D3D3D;
-  background-image: url('./img/parts.jpg');
+  background-image: url('./img/warranty.jpeg');
   background-size:cover ;
   background-repeat: no-repeat;
   background-position: center;
@@ -181,8 +183,8 @@ height:8vh;
 
 /*sales page stytling*/
 .sales-wrapper{
+  position:relative;
   max-height:180vh;
-  background:linear-gradient(white,lightgray));
 }
 .sales-txt{
   padding:10vw;
@@ -203,7 +205,12 @@ height:8vh;
   position: relative;
 }
 .img-wrapper{
+  background-image:url('./img/bg2.jpg');
+  background-size: cover;
+
   padding:2vw;
+  min-height:20vh;
+  margin-bottom:5vh;
 }
 .row0{
   height:10vw;
@@ -262,6 +269,32 @@ height:8vh;
 .brand-slide{
   height:10vh;
 }
+.used-img{
+  background-image:url('./img/used1.jpg');
+  background-size:cover;
+  min-height:50vh;
+  min-width:30vw;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+}
+.rental-img{
+  background-image:url('./img/new.jpeg');
+  background-size:100%;
+  background-repeat: no-repeat;
+  min-height:50vh;
+  min-width:30vw;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+  margin:10vw;
+}
+.parts-img{
+  background-image:url('./img/parts1.jpg');
+  background-size:100%;
+  background-repeat: no-repeat;
+  min-height:50vh;
+  min-width:30vw;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+  margin:10vw;
+}
+
 
 /*****************************************************/
 /*responsive styling */
@@ -290,6 +323,7 @@ height:8vh;
   .MenuBlock-wrapper{
     height:auto;
     max-width:80vw;
+    margin-bottom:5vh;
   }
   .footer{
     min-height:5vh;
@@ -305,11 +339,29 @@ height:8vh;
   .content{
     margin-top:20vh;
   }
+  .sales-txt{
+    padding:10vw;
+  }
+  
   .sales-img{
     max-width:60vw;
     min-height:30vh;
   }
-  .sales-txt{
-    padding:2vw;
+  .used-img{
+    max-width:60vw;
+    min-height:30vh;
   }
+  .rental-img{
+    max-width:60vw;
+    min-height:30vh;
+    background-size: cover;
+    background-position: top;
+  }
+  .parts-img{
+    max-width:60vw;
+    min-height:30vh;
+    background-size: cover;
+    background-position: top;
+  }
+
 }
