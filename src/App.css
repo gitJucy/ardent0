@@ -4,10 +4,14 @@
   min-width:400px;
 }
 .content{
+  width:100%;
   position:relative;
   margin-top:14vh;
   text-align:center;
   font-size:2vh;
+}
+.fill{
+  height:20vh;
 }
 #logo{
 height:8vh;
@@ -169,7 +173,6 @@ height:8vh;
 
 /*footer styling*************************************************************/
 .footer{
-  position: relative;
   min-height:10vh;
   max-width:100vw;
   color:white;
@@ -184,9 +187,13 @@ height:8vh;
 /*sales page stytling*********************************************************/
 .sales-wrapper{
   max-height:180vh;
+  min-height:90vh;
 }
 .sales-txt{
   padding:5vw;
+  clear:both;
+  background-color:white;
+  margin:0 5vw;
 }
 .sales-img{
   background-image:url('./img/sales1.jpg');
@@ -205,11 +212,12 @@ height:8vh;
 }
 .img-wrapper{
   position: relative;
-  background-image:url('./img/bg2.jpg');
   background-size: cover;
   padding:2vw;
   min-height:20vh;
   margin-bottom:10vh;
+  background-image:url('./img/bg2.jpg');
+  
 }
 .row0{
   height:10vw;
@@ -268,6 +276,8 @@ height:8vh;
 .carousel .slide{
   background-color:white;
   font-size:2vw;
+  color:#f66400ff
+  
 }
 /* content page image styling ***********************************************/
 .used-img{
@@ -295,12 +305,20 @@ height:8vh;
   box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
   margin:10vw;
 }
+.WM-img{
+  background-image:url('./img/warranty.jpeg');
+  background-size:100%;
+  background-repeat: no-repeat;
+  min-height:50vh;
+  min-width:30vw;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+  margin:10vw;
+}
 
 /* 8888888888888888888888888888888888888888888888888888888888888888888888888 */
 /* 8888888888888888888888888888888888888888888888888888888888888888888888888 */
 /*responsive styling */
 @media (max-width:800px){
-  
   .wording-main{
    min-width:90vw;
    margin-top:-5vh;
@@ -365,6 +383,13 @@ height:8vh;
     background-size: cover;
     background-position: top;
   }
+  .WM-img{
+    max-width:60vw;
+    min-height:30vh;
+    background-size: cover;
+    background-position: top;
+  }
+
   .carousel .slide{
     background-color:white;
     font-size:2vh;
@@ -382,6 +407,10 @@ height:8vh;
   
 }
 @media (max-width:900px) and (orientation:landscape){
+  h2{
+    font-size:2vw;
+  }
+
   .img-wrapper{
     margin-bottom:5vh;
   }

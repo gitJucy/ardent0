@@ -3,8 +3,9 @@ import React,{Component} from'react'
 class Error extends Component{
     render(){
         return(
-            <div>
-                <h1>You got lost in the warehouse....</h1>
+            <div className='content'>
+                <h1>Nothing to see here...</h1>
+                <div className='fill'></div>
             </div>
         )
     }

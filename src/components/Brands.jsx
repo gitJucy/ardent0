@@ -5,7 +5,6 @@ import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
 class Brands extends Component{
     render(){
         let settings={
-            axis:'vertical',
             showThumbs:false,
             showArrows:false,
             showIndicators:false,
