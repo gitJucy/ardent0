@@ -22,7 +22,9 @@ class Sales extends Component {
                             </p>
                         </div>
                     </div>
+                    <div>
                     <h3>We have the new <img id='ss'src={ss}/> from Clark in stock and ready to demo!</h3>
+                    </div>
                     <div className='row img-wrapper'>
                         <div className='col col-sm-4 featured-img'></div>
                         <div className='col-sm-8'>

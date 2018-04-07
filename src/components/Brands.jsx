@@ -1,20 +1,11 @@
 import React, {Component} from 'react'
 import {Carousel} from 'react-responsive-carousel'
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
-import clark from '../img/brands/clark.png'
-import crown from '../img/brands/crown.png'
-import hangcha from '../img/brands/hangcha.png'
-import heli from '../img/brands/heli.png'
-import hyster from '../img/brands/hyster.png'
-import kion from '../img/brands/kion.png'
-import komatsu from '../img/brands/komatsu.png'
-import mitsu from '../img/brands/mitsubishi.png'
-import toyota from '../img/brands/toyota.png'
-import uni from '../img/brands/unicarrier.png'
 
 class Brands extends Component{
     render(){
         let settings={
+            axis:'vertical',
             showThumbs:false,
             showArrows:false,
             showIndicators:false,
@@ -22,21 +13,27 @@ class Brands extends Component{
             infiniteLoop:true,
             autoPlay:true,
             interval:'2000',
-            width:'10vh',
-            dynamicHeight:true,
+            width:'25vw',
         };
             return(
-                <Carousel {...settings}>
-                   <img src={clark}/>
-                   <img src={crown}/>
-                   <img src={hangcha}/>
-                   <img src={heli}/>
-                   <img src={hyster}/>
-                   <img src={kion}/>
-                   <img src={komatsu}/>
-                   <img src={mitsu}/>
-                   <img src={toyota}/>
-                   <img src={uni}/>
+                <Carousel {...settings} >
+                   <div>Toyota</div>
+                   <div>Mitsubishi</div>
+                   <div>Caterpillar</div>
+                   <div>Hyster</div>
+                   <div>Yale</div>
+                   <div>Doosan</div>
+                   <div>Daewoo</div>
+                   <div>Linde</div>
+                   <div>Baker</div>
+                   <div>Barrett</div>
+                   <div>Allis Chalmers</div>
+                   <div>Crown</div>
+                   <div>Raymond</div>
+                   <div>Komatsu</div>
+                   <div>Kalmar</div>
+                   <div>TCM</div>
+
                 </Carousel>
         );
     }

@@ -24,12 +24,12 @@ class MenuBlock extends Component {
                 <div className='d-flex row justify-content-around'>
                     <div className='col-sm'>
                     <Link to='/service'><div className='box4'>
-                            <h1>Service/Parts</h1>
+                            <h1>Service/ Parts</h1>
                         </div></Link>
                     </div>
                     <div className='col-sm'>
                     <Link to='/warranty'><div className='box5'>
-                            <h1>Warranties</h1>
+                            <h1>Warranty</h1>
                         </div></Link>
                     </div>
                     <div className='col-sm'>

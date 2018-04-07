@@ -1,8 +1,7 @@
 
-
 /*sets body parameters*/
 .main{
-  min-width:360px;
+  min-width:400px;
 }
 .content{
   position:relative;
@@ -15,7 +14,7 @@ height:8vh;
 }
 
 
-/*navigation styles*/
+/*navigation styles********************************************************/
 #navBar{
   height:10vh;
   min-width:100vw;
@@ -37,7 +36,7 @@ height:8vh;
 }
 
 
-/*home page landing screen*/
+/*home page landing screen***************************************************/
 .landing{
   background-image:url('https://s3.amazonaws.com/ardentindustrial/bg.png');
   background-size: cover;
@@ -60,7 +59,7 @@ height:8vh;
 }
 
 
-/*styles for second page scrolled down on home page*/
+/*styles for second page scrolled down on home page*****************************/
 .about-box{
   max-height:100vh;
   width:auto;
@@ -93,7 +92,7 @@ height:8vh;
 }
 
 
-/*social media links styling*/
+/*social media links styling***********************************************/
 .navbuttons{
   text-align: center;
 }
@@ -103,7 +102,7 @@ height:8vh;
 }
 
 
-/*site navigation photos*/
+/*site navigation photos*****************************************************/
 .MenuBlock-wrapper{
   height:100vh;
   width:auto;
@@ -168,8 +167,9 @@ height:8vh;
 }
 
 
-/*footer styling*/
+/*footer styling*************************************************************/
 .footer{
+  position: relative;
   min-height:10vh;
   max-width:100vw;
   color:white;
@@ -181,13 +181,12 @@ height:8vh;
 } 
 
 
-/*sales page stytling*/
+/*sales page stytling*********************************************************/
 .sales-wrapper{
-  position:relative;
   max-height:180vh;
 }
 .sales-txt{
-  padding:10vw;
+  padding:5vw;
 }
 .sales-img{
   background-image:url('./img/sales1.jpg');
@@ -205,6 +204,7 @@ height:8vh;
   position: relative;
 }
 .img-wrapper{
+  position: relative;
   background-image:url('./img/bg2.jpg');
   background-size: cover;
   padding:2vw;
@@ -264,10 +264,12 @@ height:8vh;
   max-width:20vw;
 }
 
-/*Brand slider*/
-.brand-slide{
-  height:10vh;
+/*Brand slider***************************************************************/
+.carousel .slide{
+  background-color:white;
+  font-size:2vw;
 }
+/* content page image styling ***********************************************/
 .used-img{
   background-image:url('./img/used1.jpg');
   background-size:cover;
@@ -294,10 +296,10 @@ height:8vh;
   margin:10vw;
 }
 
-
-/*****************************************************/
+/* 8888888888888888888888888888888888888888888888888888888888888888888888888 */
+/* 8888888888888888888888888888888888888888888888888888888888888888888888888 */
 /*responsive styling */
-@media (max-width:1023px){
+@media (max-width:800px){
   
   .wording-main{
    min-width:90vw;
@@ -337,9 +339,7 @@ height:8vh;
   }
   .content{
     margin-top:20vh;
-  }
-  .sales-txt{
-    padding:10vw;
+    font-size:1.8vh;
   }
   .img-wrapper{
     margin-bottom:6vh;
@@ -365,5 +365,33 @@ height:8vh;
     background-size: cover;
     background-position: top;
   }
+  .carousel .slide{
+    background-color:white;
+    font-size:2vh;
+  }
+  
 
+}
+@media (max-width:321px){
+  .img-wrapper{
+    margin-bottom:5vh;
+  }
+  .content{
+    font-size:2vw;
+  }
+  
+}
+@media (max-width:900px) and (orientation:landscape){
+  .img-wrapper{
+    margin-bottom:5vh;
+  }
+  .sales-img{
+    min-height:60vh;
+  }
+  
+}
+@media (max-width:732px) and (orientation:landscape){
+  .footer{
+    margin-top:102vh;
+  }
 }

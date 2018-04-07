@@ -1,5 +1,5 @@
 import React ,{Component} from 'react'
-
+import Brands from '../components/Brands'
 
 class Service extends Component {
     render() {
@@ -11,11 +11,14 @@ class Service extends Component {
                         <div className='col-sm parts-img'></div>
                         <div className='col-sm'>
                            <p className='sales-txt'>
-                           Ardent’s Four Hour Guarantee – When you have equipment down, you need it working again fast.  We pledge to have one of our certified technicians at your facility and working to limit your downtime within FOUR HOURS of your call, or your FIRST hour is on us.
-                           We are proud to service ALL makes and models of material handling equipment. 
+                           <h2>Ardent’s Four Hour Guarantee </h2>When you have equipment down, you need it working again fast.  We pledge to have one of our certified technicians at your facility and working to limit your downtime within FOUR HOURS of your call, or your FIRST hour is on us.<hr/>
+                           <h2>We are proud to service ALL makes and models of material handling equipment. </h2>
                            Our extensively stocked parts department means less downtime for you when parts are needed. Our partnership with Clark Totalift means that whatever brand of forklift you have, we can supply the right part for the job. In addition to Clark, we also supply parts to support:
-                           
+                           <div className='brand-slide container-fluid d-flex justify-content-center'>
+                           <Brands />
+                           </div>
                             </p>
+                            
                         </div>
                     </div>
                   

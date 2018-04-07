@@ -20,7 +20,7 @@ class Social extends Component {
                         </li>
                     </ul>
                 </div>
-                <p>content &copy; 2018 Ardent</p>
+                <p>&copy; 2018 Ardent</p>
 
             </div>
         );
