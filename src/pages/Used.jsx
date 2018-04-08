@@ -1,4 +1,5 @@
 import React ,{Component} from 'react'
+import FinanceBlock from '../components/FinanceBlock'
 class Used extends Component {
     render() {
         return (
@@ -21,7 +22,7 @@ class Used extends Component {
                             </p>
                         </div>
                     </div>
-                  
+                  <FinanceBlock />
                 </div>
             </div>
         );

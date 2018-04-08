@@ -6,9 +6,10 @@ import Used from './pages/Used'
 import Rentals from './pages/Rentals'
 import Service from './pages/Service'
 import WM from './pages/WM'
+import Finance from './pages/Finance'
+import Error from './pages/Error'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
-import Error from './components/Error'
 import './App.css';
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           <Route path='/rentals' component={Rentals}/>
           <Route path='/service' component={Service}/>
           <Route path='/warranty' component={WM}/>
+          <Route path='/finance' component={Finance}/>
           <Route path='*' component={Error} />
         </Switch>
         <Footer/>

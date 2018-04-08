@@ -23,10 +23,10 @@ class NavBar extends Component{
                         <Link to='/rentals' className="nav-link" >Rentals</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/service' className="nav-link">Parts/ Service</Link>
+                        <Link to='/service' className="nav-link">Service/ Parts</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/warranty' className="nav-link">Warranties</Link>
+                        <Link to='/warranty' className="nav-link">Warranty</Link>
                     </li>
                     <li>
                         <span className='navbar-text'>(888) 999-8066</span>

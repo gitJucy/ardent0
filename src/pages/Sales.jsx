@@ -1,5 +1,7 @@
 import React ,{Component} from 'react'
 import ss from '../img/brands/S-Series.png'
+import FinanceBlock from '../components/FinanceBlock'
+import clark from '../img/brands/clark.svg'
 class Sales extends Component {
     render() {
         return (
@@ -16,14 +18,14 @@ class Sales extends Component {
                         <div className='col-sm sales-img'></div>
                         <div className='col-sm'>
                            <p className='sales-txt'>We have carefully selected our partners to best serve you. <br/>
-                            <strong>Clark</strong> – The original inventor of the forklift has now reinvented themselves with cutting edge equipment to meet every need and has the support infrastructure to keep you running. <br/>
-                            <strong>JLG</strong> – As the world’s leading designer and manufacturer of access equipment, JLG helps us go above and beyond to support our clients.  <br/>
-                            <strong>Cascade</strong> – A global leader in the design, manufacture and marketing of materials handling equipment and related technologies, Cascade products reliably get the job done, whatever that job may be. 
+                            <img id ='clarklogo'src={clark}/> – The original inventor of the forklift has now reinvented themselves with cutting edge equipment to meet every need and has the support infrastructure to keep you running. <br/>
+                            <strong><u>JLG</u></strong> – As the world’s leading designer and manufacturer of access equipment, JLG helps us go above and beyond to support our clients.  <br/>
+                            <strong><u>Cascade</u></strong> – A global leader in the design, manufacture and marketing of materials handling equipment and related technologies, Cascade products reliably get the job done, whatever that job may be. 
                             </p>
                         </div>
                     </div>
                     <div>
-                    <h3>We have the new <img id='ss'src={ss}/> from Clark in stock and ready to demo!</h3>
+                    <h3>We have the new <img id='ss'src={ss}/> from <img id ='clarklogo' src={clark}/> in stock and ready to demo!</h3>
                     </div>
                     <div className='row img-wrapper'>
                         <div className='col col-sm-4 featured-img'></div>
@@ -42,6 +44,7 @@ class Sales extends Component {
                             </div>
                         </div>
                     </div>
+                    <FinanceBlock />
                 </div>
             </div>
         );

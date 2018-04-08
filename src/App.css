@@ -4,17 +4,22 @@
   min-width:400px;
 }
 .content{
+  font-family:'Raleway',sans-serif;
+  color:rgb(60,60,60);
   width:100%;
   position:relative;
   margin-top:14vh;
   text-align:center;
   font-size:2vh;
 }
+.content h1{
+  font-family:'Roboto',sans-serif;
+}
 .fill{
   height:20vh;
 }
 #logo{
-height:8vh;
+  height:8vh;
 }
 
 
@@ -186,13 +191,17 @@ height:8vh;
 
 /*sales page stytling*********************************************************/
 .sales-wrapper{
-  max-height:180vh;
   min-height:90vh;
 }
 .sales-txt{
+  color:white;
   padding:5vw;
   clear:both;
-  background-color:white;
+  /* background:linear-gradient(to top, rgba(246, 98, 0, 0.38), 
+  rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), 
+  rgba(255, 255, 255, 0)); */
+  background-color:rgb(60,60,60);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
   margin:0 5vw;
 }
 .sales-img{
@@ -201,6 +210,11 @@ height:8vh;
   min-height:20vw;
   min-width:20vw;
   box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+  margin:5vh;
+  
+}
+#clarklogo{
+  height:5vh;
 }
 .featured-img{
   min-height:20vw;
@@ -215,7 +229,7 @@ height:8vh;
   background-size: cover;
   padding:2vw;
   min-height:20vh;
-  margin-bottom:10vh;
+  margin-bottom:5vh;
   background-image:url('./img/bg2.jpg');
   
 }
@@ -271,10 +285,22 @@ height:8vh;
 #ss{
   max-width:20vw;
 }
+.finance-block{
+  max-height:30vh;
+  position:relative;
+}
+#money{
+  height:8vh;
+  color:rgb(60,60,60);
+}
+#finance-button{
+  color:white;
+  background-color:#f66400ff;
+}
 
 /*Brand slider***************************************************************/
 .carousel .slide{
-  background-color:white;
+  background-color:rgb(60,60,60);
   font-size:2vw;
   color:#f66400ff
   
@@ -286,6 +312,8 @@ height:8vh;
   min-height:50vh;
   min-width:30vw;
   box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+  margin:5vh;
+  
 }
 .rental-img{
   background-image:url('./img/new.jpeg');
@@ -295,6 +323,8 @@ height:8vh;
   min-width:30vw;
   box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
   margin:10vw;
+  margin:5vh;
+  
 }
 .parts-img{
   background-image:url('./img/parts1.jpg');
@@ -304,6 +334,8 @@ height:8vh;
   min-width:30vw;
   box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
   margin:10vw;
+  margin:5vh;
+  
 }
 .WM-img{
   background-image:url('./img/warranty.jpeg');
@@ -360,7 +392,7 @@ height:8vh;
     font-size:1.8vh;
   }
   .img-wrapper{
-    margin-bottom:6vh;
+    margin-bottom:2vh;
   }
   
   .sales-img{
@@ -391,8 +423,9 @@ height:8vh;
   }
 
   .carousel .slide{
-    background-color:white;
+    background-color:rgb(60,60,60);
     font-size:2vh;
+    font-weight:bold;
   }
   
 

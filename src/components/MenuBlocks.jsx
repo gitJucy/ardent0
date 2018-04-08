@@ -11,7 +11,7 @@ class MenuBlock extends Component {
                         </div></Link>
                     </div>
                     <div className='col-sm'>
-                    <Link to='/sales'><div className='box2'>
+                    <Link to='/used'><div className='box2'>
                             <h1>Used</h1>
                         </div></Link>
                     </div>
