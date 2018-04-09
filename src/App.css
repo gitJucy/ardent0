@@ -13,7 +13,16 @@
   font-size:2vh;
 }
 .content h1{
-  font-family:'Roboto',sans-serif;
+  width:30vw;
+  font-size:6vh;
+  font-weight:bold;
+  font-family:'Lato',sans-serif;
+  margin:0 auto;
+  box-shadow: 1px 10px 15px rgba(0,0,0,0.1);
+  margin-bottom:2vh;
+}
+hr{
+  background-color:#f66400ff;
 }
 .fill{
   height:20vh;
@@ -197,12 +206,10 @@
   color:white;
   padding:5vw;
   clear:both;
-  /* background:linear-gradient(to top, rgba(246, 98, 0, 0.38), 
-  rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), 
-  rgba(255, 255, 255, 0)); */
+  /* background:linear-gradient(to top, rgb(60,60,60),rgb(20,20,20),rgb(60,60,60)); */
   background-color:rgb(60,60,60);
   box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
-  margin:0 5vw;
+  margin:5vh 5vw;
 }
 .sales-img{
   background-image:url('./img/sales1.jpg');
@@ -346,6 +353,9 @@
   box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
   margin:10vw;
 }
+#splash{
+  height:5vh;
+}
 
 /* 8888888888888888888888888888888888888888888888888888888888888888888888888 */
 /* 8888888888888888888888888888888888888888888888888888888888888888888888888 */
@@ -362,6 +372,10 @@
   .heading-anim h3{
     font-size:2vh;
   }
+  .content h1{
+    width:80vw;
+  }
+  
   .abpic, .buffer{
     display: none;
   }

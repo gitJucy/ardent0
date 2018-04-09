@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import logo from '../logo.svg'
 import {Link} from 'react-router-dom'
+import phone from '../img/phone.svg'
 
 class NavBar extends Component{
     render(){
@@ -28,8 +29,12 @@ class NavBar extends Component{
                     <li className="nav-item">
                         <Link to='/warranty' className="nav-link">Warranty</Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to='/contact' className="nav-link">Contact Us</Link>
+                    </li>
+
                     <li>
-                        <span className='navbar-text'>(888) 999-8066</span>
+                        <span className='navbar-text'><img className='splash'src={phone}/>(888) 999-8066</span>
                     </li>
                     </ul>
                 </div>

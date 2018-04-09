@@ -13,7 +13,8 @@ class WM extends Component {
                            <p className='sales-txt'>
                            To allow you to focus on your primary business and not your equipment, Ardent Industrial Equipment offers efficiency through maintenance and warranty plans. 
                            Available for both new and pre-owned equipment, we can provide maintenance plans to ensure optimal performance and minimal downtime, and our warranty plans provide peace of mind against unexpected and unbudgeted breakdowns of major components.  
-                           Ardent Industrial Equipment offers customizable solutions for your specific needs. <hr/>Available options to support you include:<br />
+                           Ardent Industrial Equipment offers customizable solutions for your specific needs. <hr />
+                           Available options to support you include:<br />
                            <li>New Truck Extended Warranties</li>
                            <li>Used Truck Extended Warranties</li>
                            <li>New and Used Total Maintenance Plan </li>
