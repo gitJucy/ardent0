@@ -1,4 +1,5 @@
 import React ,{Component} from 'react'
+import Badger from '../components/Badger'
 
 
 class Rentals extends Component {
@@ -20,6 +21,7 @@ class Rentals extends Component {
                     </div>
                   
                 </div>
+                <Badger />
             </div>
         );
     }

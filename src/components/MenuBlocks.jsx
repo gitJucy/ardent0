@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 class MenuBlock extends Component {
     render() {
         return (
-            <div className='container MenuBlock-wrapper'>
+            <div className='container-fluid MenuBlock-wrapper'>
                 <div className='d-flex row justify-content-around'>
                     <div className='col-sm'>
                         <Link to='/sales'><div className='box1'>

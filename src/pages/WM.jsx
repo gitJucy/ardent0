@@ -1,5 +1,5 @@
 import React ,{Component} from 'react'
-
+import Badger from '../components/Badger'
 
 class WM extends Component {
     render() {
@@ -11,8 +11,8 @@ class WM extends Component {
                         <div className='col-sm WM-img'></div>
                         <div className='col-sm'>
                            <p className='sales-txt'>
-                           To allow you to focus on your primary business and not your equipment, Ardent Industrial Equipment offers efficiency through maintenance and warranty plans. 
-                           Available for both new and pre-owned equipment, we can provide maintenance plans to ensure optimal performance and minimal downtime, and our warranty plans provide peace of mind against unexpected and unbudgeted breakdowns of major components.  
+                           To allow you to focus on your primary business and not your equipment, Ardent Industrial Equipment offers <span id='pop'> efficiency</span> through maintenance and warranty plans. 
+                           Available for both new and pre-owned equipment, we can provide maintenance plans to ensure <span id='pop'> optimal performance</span> and <span id='pop'> minimal downtime.</span> Our warranty plans provide <span id='pop'> peace of mind</span> against unexpected and unbudgeted breakdowns of major components.  
                            Ardent Industrial Equipment offers customizable solutions for your specific needs. <hr />
                            Available options to support you include:<br />
                            <li>New Truck Extended Warranties</li>
@@ -28,6 +28,7 @@ class WM extends Component {
                     </div>
                   
                 </div>
+                <Badger/>
             </div>
         );
     }

@@ -2,6 +2,7 @@
 /*sets body parameters*/
 .main{
   min-width:400px;
+  
 }
 .content{
   font-family:'Raleway',sans-serif;
@@ -22,13 +23,20 @@
   margin-bottom:2vh;
 }
 hr{
+  color:#f66400ff;
   background-color:#f66400ff;
+  border:1px solid #f66400ff;
 }
 .fill{
   height:20vh;
 }
 #logo{
   height:8vh;
+}
+.badger{
+  height:10vh;
+  width:auto;
+  color:rgb(60,60,60);
 }
 
 
@@ -40,17 +48,21 @@ hr{
   padding-right:2vw;
 }
 #navbarNavDropdown{
-  background: rgb(255,255,255);
   text-align: center;
   font-weight: bold;
   font-size: 1.8vh;
   z-index: 2;
+  background-color:white;
 }
 #navbarNavDropdown a{
   padding-right:1.5em;
 }
 .navbar-toggler-icon{
   height:4vh;
+}
+.dropdown-menu{
+  text-align: center;
+  background-color:white;
 }
 
 
@@ -79,32 +91,22 @@ hr{
 
 /*styles for second page scrolled down on home page*****************************/
 .about-box{
-  max-height:100vh;
+  position:relative;
   width:auto;
-  margin-top:10vh;
+  margin:10vh 0;
 }
-.abpic{
-  width:40vw;
-  display:inline-block;
-  background-image: url('./img/clarkaction.jpg');
-  background-color: #3D3D3D;
-  background-size:cover ;
-  background-repeat: no-repeat;
-  background-position: center;
-  box-shadow: 8px 10px 10px rgba(0,0,0,0.4);
-}
-.buffer{
-  width:1vw;
+#pop{
+  font-size:1.8vw;
+  color:#f66400ff;
 }
 .wording-main{
   width:40vw;  
-  background-image:url('./img/steel.jpeg');
-  background-color: #3D3D3D;
+  background-color:rgb(60,60,60);
   background-blend-mode: multiply;
   color: rgb(255,255,255);
   font-size: 2vh;
   box-shadow: 8px 10px 10px rgba(0,0,0,0.4);
-  padding:18vh 8vh;
+  padding:8vh 12vw;
   text-align: center;
   margin-bottom:0px;
 }
@@ -124,17 +126,24 @@ hr{
 .MenuBlock-wrapper{
   height:100vh;
   width:auto;
-  padding:5vw;
-  margin-bottom:20vh;
+  padding: 0 12vw;
+}
+.MenuBlock-wrapper a{
+  text-decoration: none;
 }
 .box1, .box2, .box3, .box4, .box5, .box6{
   height:40vh;
   width:auto;
-  margin-top:4vw;
+  margin-top:2vw;
   color:rgb(255,255,255);
   text-shadow:2px 2px 5px rgba(0,0,0,0.9);
   padding-left:1vw;
+  opacity:.7;
+  background-color:rgb(60,60,60);
 }
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover{
+  opacity:1;
+}  
 .box1{
   background-color: #3D3D3D;
   background-image: url('./img/clarknew.jpg');
@@ -190,7 +199,6 @@ hr{
   min-height:10vh;
   max-width:100vw;
   color:white;
-  background-image:url('./img/steel.jpeg');
   background-color: #3D3D3D;
   background-blend-mode: multiply;
   padding: 1vh 4vw;
@@ -201,6 +209,10 @@ hr{
 /*sales page stytling*********************************************************/
 .sales-wrapper{
   min-height:90vh;
+}
+.sales{
+  background-image:url('./img/salesbg.png');
+  background-size:cover;
 }
 .sales-txt{
   color:white;
@@ -354,17 +366,22 @@ hr{
   margin:10vw;
 }
 #splash{
-  height:5vh;
+  height:6vh;
+}
+#splash1{
+  height:4vh;
 }
 
 /* 8888888888888888888888888888888888888888888888888888888888888888888888888 */
 /* 8888888888888888888888888888888888888888888888888888888888888888888888888 */
 /*responsive styling */
-@media (max-width:800px){
+@media (max-width:830px){
   .wording-main{
    min-width:90vw;
    margin-top:-5vh;
-   margin-bottom:12vh;
+  }
+  #pop{
+    font-size:4vh;
   }
   .heading-anim h2{
     font-size:4vh;
@@ -384,11 +401,13 @@ hr{
   }
   .box1, .box2, .box3, .box4, .box5, .box6{
     max-width:75vw;
+    margin:1vh;
   }
   .MenuBlock-wrapper{
     height:auto;
     max-width:80vw;
-    margin-bottom:5vh;
+    margin-top:5vh;
+    padding:0;
   }
   .footer{
     min-height:5vh;

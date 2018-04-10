@@ -1,5 +1,7 @@
 import React ,{Component} from 'react'
 import FinanceBlock from '../components/FinanceBlock'
+import Badger from '../components/Badger'
+
 class Used extends Component {
     render() {
         return (
@@ -24,6 +26,7 @@ class Used extends Component {
                     </div>
                   <FinanceBlock />
                 </div>
+                <Badger />
             </div>
         );
     }

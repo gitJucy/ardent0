@@ -18,10 +18,9 @@ class NavBar extends Component{
                         <div className='dropdown-menu'aria-labelledby="navbarDropdown">
                             <Link to='/sales' className="nav-link">New Equipment</Link>
                             <Link to='/used' className="nav-link">Used Equipment</Link>
+                            <Link to='/rentals' className="nav-link" >Rentals</Link>
+
                         </div>
-                    </li>
-                    <li className="nav-item">
-                        <Link to='/rentals' className="nav-link" >Rentals</Link>
                     </li>
                     <li className="nav-item">
                         <Link to='/service' className="nav-link">Service/ Parts</Link>
@@ -30,11 +29,15 @@ class NavBar extends Component{
                         <Link to='/warranty' className="nav-link">Warranty</Link>
                     </li>
                     <li className="nav-item">
+                        <Link to='/finance' className='nav-link'>Financing</Link>
+                    </li>
+
+                    <li className="nav-item">
                         <Link to='/contact' className="nav-link">Contact Us</Link>
                     </li>
 
                     <li>
-                        <span className='navbar-text'><img className='splash'src={phone}/>(888) 999-8066</span>
+                       <a href='tel:1+888-999-8066' ><span className='navbar-text'><img className='splash'src={phone}/>(888) 999-8066</span></a>
                     </li>
                     </ul>
                 </div>
