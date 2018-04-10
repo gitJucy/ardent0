@@ -2,6 +2,8 @@ import React ,{Component} from 'react'
 import ss from '../img/brands/S-Series.png'
 import FinanceBlock from '../components/FinanceBlock'
 import clark from '../img/brands/clark.svg'
+import jlg from '../img/brands/jlg.png'
+import cascade from '../img/brands/cascadelogo.png'
 import brand from '../img/brand.svg'
 import forkw from '../img/forkw.svg'
 import badge from '../img/badge.png'
@@ -26,8 +28,8 @@ Dynamic Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, 
                            <p className='sales-txt'>
                                <img id='splash' src={brand}/><hr/>
                             <img id ='clarklogo'src={clark}/> – The original inventor of the forklift has now reinvented themselves with cutting edge equipment to meet every need and has the support infrastructure to keep you running. <hr/>
-                            <strong><u>JLG</u></strong> – As the world’s leading designer and manufacturer of access equipment, JLG helps us go above and beyond to support our clients.  <hr/>
-                            <strong><u>Cascade</u></strong> – A global leader in the design, manufacture and marketing of materials handling equipment and related technologies, Cascade products reliably get the job done, whatever that job may be. 
+                            <img id ='clarklogo'src={jlg}/> – As the world’s leading designer and manufacturer of access equipment, JLG helps us go above and beyond to support our clients.  <hr/>
+                            <img id ='clarklogo'src={cascade}/> – A global leader in the design, manufacture and marketing of materials handling equipment and related technologies, Cascade products reliably get the job done, whatever that job may be. 
                             </p>
                         </div>
                     </div>

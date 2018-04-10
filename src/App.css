@@ -235,6 +235,9 @@ hr{
 #clarklogo{
   height:5vh;
 }
+#casclogo{
+  height:10vh;
+}
 .featured-img{
   min-height:20vw;
   background-image: url('./img/fork7.png');
