@@ -9,7 +9,7 @@
   color:rgb(60,60,60);
   width:100%;
   position:relative;
-  margin-top:14vh;
+  margin-top:10vh;
   text-align:center;
   font-size:2vh;
 }
@@ -96,7 +96,7 @@ hr{
   margin:10vh 0;
 }
 #pop{
-  font-size:1.8vw;
+  font-size:1.2vw;
   color:#f66400ff;
 }
 .wording-main{
@@ -224,11 +224,11 @@ hr{
   margin:5vh 5vw;
 }
 .sales-img{
-  background-image:url('./img/sales1.jpg');
-  background-size:cover;
+  background-image:url('./img/gex-40.png');
+  background-size:contain;
+  background-repeat:no-repeat;
   min-height:20vw;
   min-width:20vw;
-  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
   margin:5vh;
   
 }
@@ -366,10 +366,13 @@ hr{
   margin:10vw;
 }
 #splash{
-  height:6vh;
+  height:8vh;
 }
 #splash1{
   height:4vh;
+}
+#badge{
+  height:20vh;
 }
 
 /* 8888888888888888888888888888888888888888888888888888888888888888888888888 */
@@ -381,7 +384,7 @@ hr{
    margin-top:-5vh;
   }
   #pop{
-    font-size:4vh;
+    font-size:2.5vh;
   }
   .heading-anim h2{
     font-size:4vh;
@@ -402,6 +405,7 @@ hr{
   .box1, .box2, .box3, .box4, .box5, .box6{
     max-width:75vw;
     margin:1vh;
+    opacity:1;
   }
   .MenuBlock-wrapper{
     height:auto;

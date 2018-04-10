@@ -4,6 +4,7 @@ import FinanceBlock from '../components/FinanceBlock'
 import clark from '../img/brands/clark.svg'
 import brand from '../img/brand.svg'
 import forkw from '../img/forkw.svg'
+import badge from '../img/badge.png'
 import Badger from '../components/Badger'
 
 class Sales extends Component {
@@ -14,7 +15,7 @@ class Sales extends Component {
                     <h1>New Equipment</h1>
                     <div className='sales row d-flex justify-content-center align-items-center'>
                         <div className='col-sm '>
-                            <p className='sales-txt'><img id='splash' src={forkw}/><hr/>
+                            <p className='sales-txt'><img id='badge' src={badge}/><hr/>
 Dynamic Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, and Cascade’s renowned attachments allow us to fill your material handling needs.<hr/>
                             Ardent provides preventative maintenance, total maintenance, and all warranty services to ensure keeping your equipment optimal and running efficiently is easy.<hr/>
                             Your experience before, during and after your purchase is our focus. We will lift with you for years to come.
