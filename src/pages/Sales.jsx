@@ -13,10 +13,10 @@ import SaleSlide from '../components/SaleSlider'
 class Sales extends Component {
     render() {
         return (
-            <div className='content container-fluid'>
+            <div className='sales content container-fluid'>
                 <div className='sales-wrapper'>
                     <h1>New Equipment</h1>
-                    <div className='sales row d-flex justify-content-center align-items-center'>
+                    <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm '>
                             <p className='sales-txt'><img id='badge' src={badge}/><hr/>
 Dynamic Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, and Cascade’s renowned attachments allow us to fill your material handling needs.<hr/>
@@ -35,7 +35,7 @@ Dynamic Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, 
                             </p>
                         </div>
                     </div>
-                    <div>
+                    <div className='row d-flex justify-content-center'id='s-series'>
                     <h3>We have the new <img id='ss'src={ss}/> from <img id ='clarklogo' src={clark}/> in stock and ready to demo!</h3>
                     </div>
                     <div className='row img-wrapper'>

@@ -7,18 +7,18 @@
 .content{
   font-family:'Raleway',sans-serif;
   color:rgb(60,60,60);
-  width:100%;
   position:relative;
   margin-top:10vh;
   text-align:center;
   font-size:2vh;
 }
 .content h1{
-  width:30vw;
+  width:25vw;
   font-size:6vh;
   font-weight:bold;
-  font-family:'Lato',sans-serif;
+  font-family:'Raleway',sans-serif;
   margin:0 auto;
+  background-color:white;
   box-shadow: 1px 10px 15px rgba(0,0,0,0.1);
   margin-bottom:2vh;
 }
@@ -34,12 +34,10 @@ hr{
   height:8vh;
 }
 #badger{
-  margin:2vh 0;
+  background-color:white;
   height:5vh;
-  width:auto;
   color:rgb(60,60,60);
 }
-
 
 /*navigation styles********************************************************/
 #navBar{
@@ -80,7 +78,7 @@ hr{
 }
 .heading-anim h2{
   color:white;
-  font-size:3vw;
+  font-size:4vw;
   text-shadow: 1px 1px 10px rgba(0,0,0,0.8);  
 }
 .heading-anim h3{
@@ -203,13 +201,13 @@ hr{
   background-color: #3D3D3D;
   background-blend-mode: multiply;
   padding: 1vh 4vw;
-  margin-top:2vh;
 } 
 
 
 /*sales page stytling*********************************************************/
 .sales-wrapper{
   min-height:90vh;
+  padding:5vh 0;
 }
 .sales{
   min-height:70vh;
@@ -304,9 +302,13 @@ hr{
 #ss{
   max-width:20vw;
 }
+#s-series{
+  background-color:white;
+}
 .finance-block{
   max-height:30vh;
   position:relative;
+  padding-bottom:5vh;
 }
 #money{
   height:8vh;

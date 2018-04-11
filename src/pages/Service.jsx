@@ -5,10 +5,10 @@ import hour from '../img/4hour.svg'
 class Service extends Component {
     render() {
         return (
-            <div className='content container-fluid'>
+            <div className='sales content container-fluid'>
                 <div className='sales-wrapper'>
-                    <h1>Service and Parts</h1>
-                    <div className='sales row d-flex justify-content-center align-items-center'>
+                <h1>Service & Parts</h1>
+                    <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm parts-img'></div>
                         <div className='col-sm'>
                            <p className='sales-txt'>

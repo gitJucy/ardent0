@@ -15,7 +15,7 @@ class NavBar extends Component{
                     <ul className="navbar-nav ml-auto navbuttons align-items-center" >
                     <li className="nav-item dropdown">
                         <a href='#' className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Equipment</a>
-                        <div className='dropdown-menu'aria-labelledby="navbarDropdown">
+                        <div className='dropdown-menu'aria-labelledby="navbarDropdown"data-toggle='collapse' data-target='#navbarNavDropdown'>
                             <Link to='/sales' className="nav-link">New Equipment</Link>
                             <Link to='/used' className="nav-link">Used Equipment</Link>
                             <Link to='/rentals' className="nav-link" >Rentals</Link>

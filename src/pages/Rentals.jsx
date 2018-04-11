@@ -5,10 +5,10 @@ import key from '../img/rent.svg'
 class Rentals extends Component {
     render() {
         return (
-            <div className='content container-fluid'>
+            <div className='sales content container-fluid'>
                 <div className='sales-wrapper'>
                     <h1>Rentals</h1>
-                    <div className='sales row d-flex justify-content-center align-items-center'>
+                    <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm rental-img'></div>
                         <div className='col-sm'>
                            <p className='sales-txt'>

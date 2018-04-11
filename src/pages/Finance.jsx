@@ -4,10 +4,10 @@ import fin from '../img/finance1.svg'
 class Finance extends Component{
     render() {
         return (
-            <div className='content container-fluid'>
-                <div className='sales-wrapper'>
+            <div className='sales content container-fluid'>
+                <div className=' sales-wrapper'>
                     <h1>Financing</h1>
-                    <div className='sales row d-flex justify-content-center align-items-center'>
+                    <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm finance-img'></div>
                         <div className='col-sm'>
                            <p className='sales-txt'>
@@ -24,10 +24,10 @@ class Finance extends Component{
                             </p>
                         </div>
                     </div>
-                  
                 </div>
                 <Badger />
             </div>
+           
         );
     }
 }

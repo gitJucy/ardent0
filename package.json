@@ -23,9 +23,6 @@
     "include": [
       "/sales"
     ],
-    "exclude": [
-      "/contact"
-    ],
     "snapshotDelay": 1000
   }
 }

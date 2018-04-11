@@ -4,13 +4,13 @@ class Heading extends Component{
     render(){
         return(
             <div className='heading-anim d-flex align-items-center justify-content-center'>
-                <Fade duration={1000} delay={1000}>
+                <Fade duration={200} delay={2000}>
                     <h2>Efficiency</h2>
                 </Fade>
-                <Fade duration={1000} delay={2500}>
+                <Fade duration={200} delay={3000}>
                     <h2>Evolved</h2>
                 </Fade>
-                <Fade duration={250} delay={3500}>
+                <Fade duration={250} delay={4000}>
                     <h3>&trade;</h3>
                 </Fade>
 

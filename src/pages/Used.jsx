@@ -5,10 +5,10 @@ import check from '../img/check.svg'
 class Used extends Component {
     render() {
         return (
-            <div className='content container-fluid'>
+            <div className='sales content container-fluid'>
                 <div className='sales-wrapper'>
                     <h1>Used Equipment</h1>
-                    <div className='sales row d-flex justify-content-center align-items-center'>
+                    <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm '>
                             
                             <p className='sales-txt'><img id ='splash'src={check}/><hr/>Ardent takes pride in providing the highest quality pre-owned equipment to our clients, regardless of brand. We take the time to find the right equipment for your needs for the right price. 
