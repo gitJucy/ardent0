@@ -431,7 +431,7 @@ hr{
     font-size:2.5vh;
   }
   .heading-anim h2{
-    font-size:4vh;
+    font-size:5vh;
   }
   .heading-anim h3{
     font-size:2vh;
@@ -534,6 +534,10 @@ hr{
   h2{
     font-size:2vw;
   }
+  .heading-anim h2{
+    font-size:10vh;
+  }
+
 
   .img-wrapper{
     margin-bottom:5vh;
