@@ -22,17 +22,17 @@ class NavBar extends Component{
 
                         </div>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item" data-toggle='collapse' data-target='#navbarNavDropdown'>
                         <Link to='/service' className="nav-link">Service/ Parts</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item"data-toggle='collapse' data-target='#navbarNavDropdown'>
                         <Link to='/warranty' className="nav-link">Warranty</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item"data-toggle='collapse' data-target='#navbarNavDropdown'>
                         <Link to='/finance' className='nav-link'>Financing</Link>
                     </li>
 
-                    <li className="nav-item">
+                    <li className="nav-item"data-toggle='collapse' data-target='#navbarNavDropdown'>
                         <Link to='/contact' className="nav-link">Contact Us</Link>
                     </li>
 

@@ -1,11 +1,32 @@
 import React, {Component}from 'react'
 import Badger from '../components/Badger'
-
+import fin from '../img/finance1.svg'
 class Finance extends Component{
-    render(){
-        return(
-            <div className='content'>
-             <Badger />   
+    render() {
+        return (
+            <div className='content container-fluid'>
+                <div className='sales-wrapper'>
+                    <h1>Financing</h1>
+                    <div className='sales row d-flex justify-content-center align-items-center'>
+                        <div className='col-sm finance-img'></div>
+                        <div className='col-sm'>
+                           <p className='sales-txt'>
+                               <img id='splash'src={fin}/><hr/>
+                               From Start-up and Small business, to Fortune 500 – we offer both in-house and partner finance and leasing programs to fit your specific needs, taking into consideration your:
+                               <ul className='list-unstyled'><br/>
+                                    <span id='pop'><li>Type of product(s)</li></span>
+                                    <span id='pop'><li>Hours of use</li></span>
+                                    <span id='pop'><li>Targeted monthly budget for payments</li></span>
+                                    <span id='pop'><li>Usage patterns</li></span>
+                                    <span id='pop'><li>Facility demands</li></span>
+                                    <span id='pop'><li>Seasonality</li></span>
+                               </ul>
+                            </p>
+                        </div>
+                    </div>
+                  
+                </div>
+                <Badger />
             </div>
         );
     }

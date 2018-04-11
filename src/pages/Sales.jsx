@@ -8,6 +8,7 @@ import brand from '../img/brand.svg'
 import forkw from '../img/forkw.svg'
 import badge from '../img/badge.png'
 import Badger from '../components/Badger'
+import SaleSlide from '../components/SaleSlider'
 
 class Sales extends Component {
     render() {
@@ -23,7 +24,8 @@ Dynamic Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, 
                             Your experience before, during and after your purchase is our focus. We will lift with you for years to come.
                             </p>
                         </div>
-                        <div className='col-sm sales-img'></div>
+                        <div className='col-sm sales-img'> <SaleSlide/></div>
+                       
                         <div className='col-sm'>
                            <p className='sales-txt'>
                                <img id='splash' src={brand}/><hr/>

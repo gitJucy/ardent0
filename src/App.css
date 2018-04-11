@@ -33,8 +33,9 @@ hr{
 #logo{
   height:8vh;
 }
-.badger{
-  height:10vh;
+#badger{
+  margin:2vh 0;
+  height:5vh;
   width:auto;
   color:rgb(60,60,60);
 }
@@ -211,6 +212,7 @@ hr{
   min-height:90vh;
 }
 .sales{
+  min-height:70vh;
   background-image:url('./img/salesbg.png');
   background-size:cover;
 }
@@ -218,25 +220,20 @@ hr{
   color:white;
   padding:5vw;
   clear:both;
-  /* background:linear-gradient(to top, rgb(60,60,60),rgb(20,20,20),rgb(60,60,60)); */
   background-color:rgb(60,60,60);
   box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
   margin:5vh 5vw;
 }
 .sales-img{
-  background-image:url('./img/gex-40.png');
   background-size:contain;
   background-repeat:no-repeat;
   min-height:20vw;
-  min-width:20vw;
+  min-width:30vw;
   margin:5vh;
   
 }
 #clarklogo{
   height:5vh;
-}
-#casclogo{
-  height:10vh;
 }
 .featured-img{
   min-height:20vw;
@@ -322,9 +319,9 @@ hr{
 
 /*Brand slider***************************************************************/
 .carousel .slide{
-  background-color:rgb(60,60,60);
+  background-color:rgba(60,60,60,0);
   font-size:2vw;
-  color:#f66400ff
+  color:#f66400ff;
   
 }
 /* content page image styling ***********************************************/
@@ -338,11 +335,11 @@ hr{
   
 }
 .rental-img{
-  background-image:url('./img/new.jpeg');
+  background-image:url('./img/clarknew.jpg');
   background-size:100%;
   background-repeat: no-repeat;
   min-height:50vh;
-  min-width:30vw;
+  max-width:30vw;
   box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
   margin:10vw;
   margin:5vh;
@@ -367,6 +364,40 @@ hr{
   min-width:30vw;
   box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
   margin:10vw;
+}
+.finance-img{
+  background-image:url('./img/finance.jpeg');
+  background-size:100%;
+  background-repeat: no-repeat;
+  min-height:50vh;
+  min-width:30vw;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+  margin:10vw;
+}
+#formsub{
+  width:33vw;
+  background-color:#f66400ff;
+  margin:2vh;
+  color:rgb(60,60,60);
+}
+/*Contact page ***********************************************************/
+.contact{
+  min-height:25vh;
+}
+.contact a{
+  color: #f66400ff;
+  text-decoration: none;
+}
+#contactmap{
+  min-height:30vh;
+  width:25vw;
+}
+#inlineFormCustomSelect{
+  color:rgb(60,60,60);
+  font-size:1.2vh
+}
+.contact img{
+  height:5vh;
 }
 #splash{
   height:8vh;
@@ -461,14 +492,24 @@ hr{
     background-size: cover;
     background-position: top;
   }
+  .finance-img{
+    max-width:60vw;
+    min-height:30vh;
+    background-size: cover;
+    background-position: top;
+  }
 
   .carousel .slide{
-    background-color:rgb(60,60,60);
+    background-color:rgba(60,60,60,o);
     font-size:2vh;
     font-weight:bold;
   }
   
-
+  #contactmap{
+    min-height:30vh;
+    width:80vw;
+  }
+  
 }
 @media (max-width:321px){
   .img-wrapper{
@@ -491,9 +532,8 @@ hr{
     min-height:60vh;
   }
   
-}
-@media (max-width:732px) and (orientation:landscape){
-  .footer{
-    margin-top:102vh;
+  #badger {
+    margin:6vh 0;
   }
+
 }
