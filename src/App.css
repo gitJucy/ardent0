@@ -374,15 +374,16 @@ hr{
   box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
   margin:10vw;
 }
-#formsub{
-  width:33vw;
-  background-color:#f66400ff;
-  margin:2vh;
-  color:rgb(60,60,60);
-}
 /*Contact page ***********************************************************/
 .contact{
   min-height:25vh;
+}
+.contact-text{
+  color:white;
+  padding:5vw;
+  clear:both;
+  background-color:rgb(60,60,60);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
 }
 .contact a{
   color: #f66400ff;
@@ -399,6 +400,13 @@ hr{
 .contact img{
   height:5vh;
 }
+#formsub{
+  width:33vw;
+  background-color:#f66400ff;
+  margin:2vh;
+  color:rgb(60,60,60);
+}
+
 #splash{
   height:8vh;
 }

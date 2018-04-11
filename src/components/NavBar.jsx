@@ -22,7 +22,7 @@ class NavBar extends Component{
 
                         </div>
                     </li>
-                    <li className="nav-item" data-toggle='collapse' data-target='#navbarNavDropdown'>
+                    <li className="nav-item" data-toggle='hide' data-target='#navbarNavDropdown'>
                         <Link to='/service' className="nav-link">Service/ Parts</Link>
                     </li>
                     <li className="nav-item"data-toggle='collapse' data-target='#navbarNavDropdown'>
