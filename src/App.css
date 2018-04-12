@@ -108,6 +108,11 @@ hr{
   font-size:1.2vw;
   color:#f66400ff;
 }
+#pop1{
+  font-size:1vw;
+  color:#f66400ff;
+}
+
 .wording-main{
   width:40vw;  
   background-color:rgb(60,60,60);
@@ -414,7 +419,8 @@ hr{
 }
 #contactmap{
   min-height:30vh;
-  width:25vw;
+  min-width:30vw;
+  
 }
 #inlineFormCustomSelect{
   color:rgb(60,60,60);
@@ -424,6 +430,7 @@ hr{
   height:5vh;
 }
 #formsub{
+  font-weight:bold;
   min-width:18vw;
   background-color:#f66400ff;
   margin:2vh;
@@ -454,6 +461,10 @@ hr{
   #pop{
     font-size:2.5vh;
   }
+  #pop1{
+    font-size:2vh;
+  }
+  
   .heading-anim h2{
     font-size:5vh;
   }
@@ -550,7 +561,7 @@ hr{
   
   #contactmap{
     min-height:30vh;
-    width:80vw;
+    width:60vw;
   }
   .contform{
     width:80vw;

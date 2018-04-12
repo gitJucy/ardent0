@@ -10,14 +10,14 @@ class Contact extends Component{
                 <div className='sales-wrapper'>
                 <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Contact Us</h1></div> 
                 <div className='row d-flex justify-content-center align-items-center'>
-                    <div className='col-sm contact contact-text'>
+                    <div className='col-sm contact contact-text sales-txt '>
                             <span><img id='contact-img'src={clock}/></span><hr/>
                             <p>Mon-Fri: <span id='pop'>9am-5pm</span></p>
                             <span><img id='contact-img'src={phone}/></span><hr/>
                             <p>Call us: <span id='pop'><a href='tel:1+888-999-8066'>(888) 999-8066</a></span></p>
                             <span><img id='contact-img'src={mail}/></span><hr/>
 
-                            <p>E-Mail: <span id='pop'>contact@ardentequipment.com</span></p>
+                            <p>E-Mail: <span id='pop1'>contact@ardentequipment.com</span></p>
                         </div>
 
                         <div className='col-sm contact contform'>
@@ -30,7 +30,6 @@ class Contact extends Component{
                             <div className="form-group">
                                 <label classname='sr-only' for="emailInput"></label>
                                 <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
-                                <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
                             <div className="form-group">
                                 <label classname='sr-only' for="inputPhone"></label>
@@ -54,7 +53,7 @@ class Contact extends Component{
                             </form>
                        
                         </div>
-                        <div className='col-sm contact contact-text'>
+                        <div className='col-sm contact contact-text sales-txt'>
                         <span id='pop'>Location</span><hr/>
 
                             <div>
