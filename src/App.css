@@ -424,7 +424,7 @@ hr{
   height:5vh;
 }
 #formsub{
-  width:33vw;
+  min-width:18vw;
   background-color:#f66400ff;
   margin:2vh;
   color:rgb(60,60,60);
@@ -508,6 +508,9 @@ hr{
     min-height:30vh;
   }
   .sales-txt{
+    min-width:80vw;
+  }
+  .finance-txt{
     min-width:80vw;
   }
   .used-img{
