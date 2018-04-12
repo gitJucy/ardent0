@@ -7,8 +7,8 @@ class Service extends Component {
         return (
             <div className='sales content container-fluid'>
                 <div className='sales-wrapper'>
-                <h1>Service & Parts</h1>
-                    <div className='row d-flex justify-content-center align-items-center'>
+                <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Service & Parts</h1></div> 
+                <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm parts-img'></div>
                         <div className='col-sm'>
                            <p className='sales-txt'>

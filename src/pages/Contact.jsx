@@ -8,8 +8,8 @@ class Contact extends Component{
         return(
             <div className='sales content container-fluid '>
                 <div className='sales-wrapper'>
-                    <h1>Contact Us</h1>
-                    <div className='row d-flex justify-content-center align-items-center'>
+                <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Contact Us</h1></div> 
+                <div className='row d-flex justify-content-center align-items-center'>
                     <div className='col-sm contact contact-text'>
                             <span><img id='contact-img'src={clock}/></span><hr/>
                             <p>Mon-Fri: <span id='pop'>9am-5pm</span></p>

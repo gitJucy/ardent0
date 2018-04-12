@@ -7,8 +7,8 @@ class Used extends Component {
         return (
             <div className='sales content container-fluid'>
                 <div className='sales-wrapper'>
-                    <h1>Used Equipment</h1>
-                    <div className='row d-flex justify-content-center align-items-center'>
+                <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Used Equipment</h1></div> 
+                <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm '>
                             
                             <p className='sales-txt'><img id ='splash'src={check}/><hr/>Ardent takes pride in providing the highest quality pre-owned equipment to our clients, regardless of brand. We take the time to find the right equipment for your needs for the right price. 

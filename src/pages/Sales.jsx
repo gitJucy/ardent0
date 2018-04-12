@@ -15,8 +15,8 @@ class Sales extends Component {
         return (
             <div className='sales content container-fluid'>
                 <div className='sales-wrapper'>
-                    <h1>New Equipment</h1>
-                    <div className='row d-flex justify-content-center align-items-center'>
+                <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>New Equipment</h1></div> 
+                <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm '>
                             <p className='sales-txt'><img id='badge' src={badge}/><hr/>
 Dynamic Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, and Cascade’s renowned attachments allow us to fill your material handling needs.<hr/>

@@ -7,7 +7,7 @@ class WM extends Component {
         return (
             <div className='sales content container-fluid'>
                 <div className='sales-wrapper'>
-                    <h1>Our Warranties</h1>
+                   <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Our Warranties</h1></div> 
                     <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm WM-img'></div>
                         <div className='col-sm'>
