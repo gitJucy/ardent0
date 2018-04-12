@@ -541,11 +541,11 @@ hr{
     background-size: cover;
     background-position: top;
   }
-
   .carousel .slide{
     background-color:rgba(60,60,60,o);
-    font-size:2vh;
+    font-size:3vh;
     font-weight:bold;
+    width:80vw;
   }
   
   #contactmap{

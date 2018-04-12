@@ -12,7 +12,7 @@ class Brands extends Component{
             infiniteLoop:true,
             autoPlay:true,
             interval:'2000',
-            width:'25vw',
+            width:'50vw',
         };
             return(
                 <Carousel {...settings} >
