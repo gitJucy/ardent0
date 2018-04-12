@@ -20,7 +20,7 @@ class Contact extends Component{
                             <p>E-Mail: <span id='pop'>contact@ardentequipment.com</span></p>
                         </div>
 
-                        <div className='col-sm contact'>
+                        <div className='col-sm contact contform'>
                             <form>
                                 <span id='pop'>Send us a message.</span><hr/>
                             <div className="form-group">

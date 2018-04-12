@@ -9,7 +9,6 @@ class Rentals extends Component {
                 <div className='sales-wrapper'>
                 <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Rentals</h1></div> 
                 <div className='row d-flex justify-content-center align-items-center'>
-                        <div className='col-sm rental-img'></div>
                         <div className='col-sm'>
                            <p className='sales-txt'>
                                <img id='splash'src={key}/><hr/>

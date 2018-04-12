@@ -9,7 +9,6 @@ class WM extends Component {
                 <div className='sales-wrapper'>
                    <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Our Warranties</h1></div> 
                     <div className='row d-flex justify-content-center align-items-center'>
-                        <div className='col-sm WM-img'></div>
                         <div className='col-sm'>
                            <p className='sales-txt'>
                                <img id='badge'src={warranty}/><hr/>

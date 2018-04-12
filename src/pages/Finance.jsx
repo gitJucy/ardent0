@@ -8,7 +8,6 @@ class Finance extends Component{
                 <div className=' sales-wrapper'>
                 <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Financing</h1></div> 
                 <div className='row d-flex justify-content-center align-items-center'>
-                        <div className='col-sm finance-img'></div>
                         <div className='col-sm'>
                            <p className='sales-txt'>
                                <img id='splash'src={fin}/><hr/>

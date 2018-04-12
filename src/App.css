@@ -16,7 +16,7 @@
   height:15vh;
   /* color:rgb(60,60,60); */
   width:50vw;
-  background-color:rgba(60,60,60,.4);
+  background-color:rgba(246, 100, 0, .7);
   /* background-image:url('./img/card.jpg'); */
   background-size: cover;
   box-shadow: 1px 10px 20px rgba(0,0,0,0.6);
@@ -33,7 +33,7 @@
   
 }
 hr{
-  color:#f66400ff;
+  color:rgb(246,100,0);
   background-color:#f66400ff;
   border:1px solid #f66400ff;
 }
@@ -225,12 +225,13 @@ hr{
   background-size:cover;
 }
 .sales-txt{
+  max-width:50vw;
   color:white;
   padding:5vw;
   clear:both;
   background-color:rgb(60,60,60);
   box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
-  margin:5vh 5vw;
+  margin:5vh auto;
 }
 .sales-img{
   background-size:contain;
@@ -418,6 +419,9 @@ hr{
   margin:2vh;
   color:rgb(60,60,60);
 }
+.contform{
+  width:20vw;
+}
 
 #splash{
   height:8vh;
@@ -492,6 +496,9 @@ hr{
   .sales-img{
     max-width:60vw;
     min-height:30vh;
+  }
+  .sales-txt{
+    min-width:80vw;
   }
   .used-img{
     max-width:60vw;
