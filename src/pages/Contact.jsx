@@ -21,35 +21,35 @@ class Contact extends Component{
                         </div>
 
                         <div className='col-sm contact contform'>
-                            <form>
+                            <form method='POST' action='https://formspree.io/johnrlucy84@gmail.com'>
                                 <span id='pop'>Send us a message.</span><hr/>
                             <div className="form-group">
-                                <label classname='sr-only' for="nameInput"></label>
-                                <input type="Name" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name"/>
+                                <label className='sr-only' for="nameInput"></label>
+                                <input type="Name" name='name'className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name"/>
                             </div>
                             <div className="form-group">
                                 <label classname='sr-only' for="emailInput"></label>
-                                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                                <input type="email" name='e-mail'className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
                             </div>
                             <div className="form-group">
-                                <label classname='sr-only' for="inputPhone"></label>
-                                <input type="phone-number" className="form-control"  aria-describedby="emailHelp" placeholder="Phone Number"/>
+                                <label className='sr-only' for="inputPhone"></label>
+                                <input type="phone-number" name='phone'className="form-control"  aria-describedby="emailHelp" placeholder="Phone Number"/>
                             </div>
                             <div className="form-group">
-                                <label classname='sr-only' for="exampleFormControlTextarea1"></label>
-                                <textarea className="form-control" id="exampleFormControlTextarea1" rows="5" placeholder='What can we help you with?'></textarea>
+                                <label className='sr-only' for="exampleFormControlTextarea1"></label>
+                                <textarea name='message'className="form-control" id="exampleFormControlTextarea1" rows="5" placeholder='What can we help you with?'></textarea>
                             </div>
                             <div className="form-row align-items-center">
                                 
                                 <label className="mr-sm-2" for="whenshouldwecall"></label>
-                                <select className="custom-select " id="inlineFormCustomSelect">
+                                <select name='call-time'className="custom-select " id="inlineFormCustomSelect">
                                     <option selected>Best Time To Call?</option>
-                                    <option value="1">Start of Business Day</option>
-                                    <option value="2">Afternoon</option>
-                                    <option value="3">End of Business Hours</option>
+                                    <option value="am">Start of Business Day</option>
+                                    <option value="pm">Afternoon</option>
+                                    <option value="evening">End of Business Hours</option>
                                 </select>
                                 </div>
-                               <button id='formsub'className='btn'>Submit</button>
+                               <button type='submit'id='formsub'className='btn'>Submit</button>
                             </form>
                        
                         </div>
