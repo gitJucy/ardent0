@@ -16,7 +16,7 @@
   height:15vh;
   /* color:rgb(60,60,60); */
   width:50vw;
-  background-color:rgba(246, 100, 0, .7);
+  background-color:rgba(246, 100, 0, 1);
   /* background-image:url('./img/card.jpg'); */
   background-size: cover;
   box-shadow: 1px 10px 20px rgba(0,0,0,0.6);
@@ -45,8 +45,12 @@ hr{
 }
 #badger{
   background-color:white;
-  height:5vh;
+  height:7vh;
   color:rgb(60,60,60);
+}
+#badger h3{
+  font-size:3vh;
+  font-weight:bold;
 }
 
 /*navigation styles********************************************************/
@@ -515,8 +519,11 @@ hr{
   }
   
   .sales-img{
-    max-width:60vw;
-    min-height:30vh;
+    min-width:90vw;
+    height:auto;
+  }
+  .sales-img img{
+    padding:1vw;
   }
   .sales-txt{
     min-width:80vw;

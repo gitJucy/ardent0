@@ -9,7 +9,7 @@ class Finance extends Component{
                 <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Financing</h1></div> 
                 <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm'>
-                           <p className='finance-txt'>
+                           <p className='sales-txt'>
                                <img id='splash'src={fin}/><hr/>
                                From Start-up and Small business, to Fortune 500 – we offer both in-house and partner finance and leasing programs to fit your specific needs, taking into consideration your:
                                <ul className='list-unstyled'><br/>
