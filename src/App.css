@@ -81,7 +81,7 @@ hr{
 
 /*home page landing screen***************************************************/
 .landing{
-  background-image:url('https://s3.amazonaws.com/ardentindustrial/bg.png');
+  background-image:url('https://s3.amazonaws.com/ardentindustrial/bg.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
