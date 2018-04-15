@@ -21,7 +21,13 @@
   },
   "reactSnapshot": {
     "include": [
-      "/sales"
+      "/sales",
+      "/rentals",
+      "/used",
+      "/service",
+      "/warranty",
+      "/finance",
+      "/contact"
     ],
     "snapshotDelay": 1000
   }
