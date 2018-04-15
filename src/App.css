@@ -437,6 +437,7 @@ hr{
   font-weight:bold;
   min-width:18vw;
   background-color:#f66400ff;
+  border:.2vh solid rgb(60,60,60);
   margin:2vh;
   color:rgb(60,60,60);
 }
@@ -583,7 +584,7 @@ hr{
   .content{
     font-size:2vw;
   }
-  
+ 
 }
 @media (max-width:900px) and (orientation:landscape){
   h2{
@@ -592,13 +593,16 @@ hr{
   .heading-anim h2{
     font-size:10vh;
   }
-
+  .sales-img{
+    margin:0px 0;
+}
+  .sales-img img{
+    height:auto;
+    max-width:40vw;
+   }
 
   .img-wrapper{
     margin-bottom:5vh;
-  }
-  .sales-img{
-    min-height:60vh;
   }
   
   #badger {

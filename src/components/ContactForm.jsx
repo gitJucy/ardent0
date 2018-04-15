@@ -7,20 +7,20 @@ class ContactForm extends Component{
             <form method='POST' action='https://formspree.io/johnrlucy84@gmail.com'>
                 <span id='pop'>Send us a message.</span><hr/>
             <div className="form-group">
-                <label className='sr-only' for="nameInput"></label>
-                <input type="Name" name='name'className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name"/>
+                <label for="nameInput">Name</label>
+                <input type="Name" name='name'className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name" required/>
             </div>
             <div className="form-group">
-                <label classname='sr-only' for="emailInput"></label>
-                <input type="email" name='e-mail'className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                <label  for="emailInput">E-Mail</label>
+                <input type="email" name='e-mail'className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="someone@example.com" required/>
             </div>
             <div className="form-group">
-                <label className='sr-only' for="inputPhone"></label>
-                <input type="phone-number" name='phone'className="form-control"  aria-describedby="emailHelp" placeholder="Phone Number"/>
+                <label  for="inputPhone">Phone</label>
+                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"name='phone'className="form-control"  aria-describedby="emailHelp" placeholder="123-456-7890"required/>
             </div>
             <div className="form-group">
-                <label className='sr-only' for="exampleFormControlTextarea1"></label>
-                <textarea name='message'className="form-control" id="exampleFormControlTextarea1" rows="5" placeholder='What can we help you with?'></textarea>
+                <label  for="exampleFormControlTextarea1">Message</label>
+                <textarea name='message'className="form-control" id="exampleFormControlTextarea1" rows="5" placeholder='What can we help you with?'required></textarea>
             </div>
             <div className="form-row align-items-center">
                 
