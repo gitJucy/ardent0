@@ -14,22 +14,20 @@
 }
 .headwrap{
   height:15vh;
-  /* color:rgb(60,60,60); */
   width:50vw;
-  background-color:rgba(246, 100, 0, 1);
-  /* background-image:url('./img/card.jpg'); */
-  background-size: cover;
-  box-shadow: 1px 10px 20px rgba(0,0,0,0.6);
+  border-bottom:.5vh solid rgb(246,100,0);
+  /* background-color:rgba(246, 100, 0, 1); */
+  /* box-shadow: 1px 10px 20px rgba(0,0,0,0.6); */
 
 }
 .content h1{
-  color:white;
+  color:black;
   font-weight:bold;
   font-family:'Raleway',sans-serif;
-  font-size:4vh;
+  font-size:5vh;
   margin:0  0  0 auto;
   padding-right:2vw;
-  text-shadow: 1px 1px 10px rgb(0,0,0);
+  /* text-shadow: 1px 1px 10px rgb(0,0,0); */
   
 }
 hr{
@@ -51,6 +49,16 @@ hr{
 #badger h3{
   font-size:3vh;
   font-weight:bold;
+}
+#badger-button{
+  font-weight:bold;
+  min-width:18vw;
+  background-color:#f66400ff;
+  margin:2vh;
+  border-radius:25px;
+  box-shadow: 1px 10px 10px rgba(0,0,0,0.2);
+  
+
 }
 
 /*navigation styles********************************************************/
@@ -92,12 +100,12 @@ hr{
 }
 .heading-anim h2{
   color:white;
-  font-size:4vw;
+  font-size:8vw;
   text-shadow: 1px 1px 10px rgba(0,0,0,0.8);  
 }
 .heading-anim h3{
   color:white;
-  font-size:1vw;
+  font-size:3vw;
   text-shadow: 1px 1px 10px rgba(0,0,0,0.8);
 }
 
@@ -230,7 +238,7 @@ hr{
 }
 .sales{
   min-height:70vh;
-  background-image:url('./img/salesbg.png');
+  background-image:url('./img/salesbg.jpg');
   background-size:cover;
 }
 .sales-txt{
@@ -246,12 +254,19 @@ hr{
   max-width:50vw;
   color:white;
   padding:5vw;
-  clear:both;
-  background-color:rgba(60,60,60,.7);
+  background-color:rgb(40,40,40);
   box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
   margin:5vh auto;
 }
-
+.finance-txt1{
+  max-width:50vw;
+  color:white;
+  padding:5vw;
+  clear:both;
+  background-color:rgb(100,100,100);
+  box-shadow: 10px 15px 25px rgba(0,0,0,0.4);
+  margin:5vh auto;
+}
 .sales-img{
   background-size:contain;
   background-repeat:no-repeat;

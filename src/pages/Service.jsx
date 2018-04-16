@@ -10,10 +10,10 @@ class Service extends Component {
                 <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Service & Parts</h1></div> 
                 <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm'>
-                           <p className='sales-txt'>
+                           <p className='finance-txt'>
                             <img id='badge'src={hour} /><br/>
-                           <span id ='pop'>Ardent’s Four Hour Guarantee </span><br/>When you have equipment down, you need it working again fast.  We pledge to have one of our certified technicians at your facility and working to limit your downtime within FOUR HOURS of your call, or your FIRST hour is on us.<hr/>
-                           <h2>We are proud to service ALL makes and models of material handling equipment. </h2><hr/>
+                           <span id ='pop'>Ardent’s Four Hour Guarantee </span><br/>When you have equipment down, you need it working again fast.  We pledge to have one of our certified technicians at your facility and working to limit your downtime within FOUR HOURS of your call, or your FIRST hour is on us.
+                           <div className='finance-txt1'><h2>We are proud to service ALL makes and models of material handling equipment. </h2></div>
                            Our extensively stocked <span id='pop'> Parts Department </span>means less downtime for you when parts are needed. Our partnership with Clark Totalift means that whatever brand of forklift you have, we can supply the right part for the job. In addition to Clark, we also supply parts to support:
                            <div className='brand-slide container-fluid d-flex justify-content-center'>
                            <Brands />
