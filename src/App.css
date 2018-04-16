@@ -21,8 +21,8 @@
 
 }
 .content h1{
-  color:black;
-  font-weight:bold;
+  color:rgb(60,60,60);
+  font-weight:800;
   font-family:'Raleway',sans-serif;
   font-size:5vh;
   margin:0  0  0 auto;
@@ -42,7 +42,7 @@ hr{
   height:8vh;
 }
 #badger{
-  background:linear-gradient(to left,transparent,rgba(60,60,60,.7), transparent);
+  background-color:rgb(40,40,40);
   height:10vh;
   color:rgb(60,60,60);
 }
@@ -55,9 +55,8 @@ hr{
   font-weight:bold;
   min-width:18vw;
   height:6vh;
-  background-color:lighter;
   margin:2vh;
-  border:.2vh solid rgb(246,100,0);
+  border:.2vh solid white;
   border-radius:25px;
   box-shadow: 1px 10px 10px rgba(0,0,0,0.2);
   
@@ -255,10 +254,10 @@ hr{
   margin:5vh auto;
 }
 .finance-txt{
-  max-width:50vw;
+  max-width:80vw;
   color:white;
   padding:5vw;
-  background-color:rgb(40,40,40);
+  background-color:rgb(60,60,60);
   box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
   margin:5vh auto;
 }
@@ -296,7 +295,7 @@ hr{
   padding:2vw;
   min-height:20vh;
   /* margin-bottom:5vh; */
-  background-image:url('./img/bg2.jpg');
+  background:radial-gradient(white,rgb(60,60,60));
   background-attachment: fixed;
   
 }
@@ -552,7 +551,8 @@ hr{
     min-width:80vw;
   }
   .finance-txt{
-    min-width:80vw;
+    width:80vw;
+    background-color:rgb(40,40,40);
   }
   .used-img{
     max-width:60vw;
