@@ -42,8 +42,8 @@ hr{
   height:8vh;
 }
 #badger{
-  background-color:white;
-  height:7vh;
+  background-color:rgb(190,190,190);
+  height:10vh;
   color:rgb(60,60,60);
 }
 #badger h3{
@@ -53,6 +53,7 @@ hr{
 #badger-button{
   font-weight:bold;
   min-width:18vw;
+  height:6vh;
   background-color:#f66400ff;
   margin:2vh;
   border-radius:25px;
