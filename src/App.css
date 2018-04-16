@@ -54,8 +54,9 @@ hr{
   font-weight:bold;
   min-width:18vw;
   height:6vh;
-  background-color:#f66400ff;
+  background-color:lighter;
   margin:2vh;
+  border:.2vh solid rgb(246,100,0);
   border-radius:25px;
   box-shadow: 1px 10px 10px rgba(0,0,0,0.2);
   
@@ -235,7 +236,7 @@ hr{
 /*sales page stytling*********************************************************/
 .sales-wrapper{
   min-height:90vh;
-  padding:5vh 0;
+  padding:0vh 0;
 }
 .sales{
   min-height:70vh;
@@ -292,7 +293,7 @@ hr{
   background-size: cover;
   padding:2vw;
   min-height:20vh;
-  margin-bottom:5vh;
+  /* margin-bottom:5vh; */
   background-image:url('./img/bg2.jpg');
   
 }
@@ -352,9 +353,11 @@ hr{
   background-color:white;
 }
 .finance-block{
+  width:100vw;
   max-height:30vh;
   position:relative;
   padding-bottom:5vh;
+  background-color:white;
 }
 #money{
   height:8vh;
@@ -532,7 +535,7 @@ hr{
     font-size:1.8vh;
   }
   .img-wrapper{
-    margin-bottom:2vh;
+    /* margin-bottom:2vh; */
   }
   
   .sales-img{

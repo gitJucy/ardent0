@@ -8,7 +8,7 @@ class Badger extends Component{
         return(
             <div className='row d-flex justify-content-center align-items-center'id='badger'>
                
-                <h3><button id='badger-button'> <Link to='/contact'style={{color:'white', textDecoration:'none'}}> Contact Us Today! </Link></button></h3>
+                <h3><button id='badger-button'> <Link to='/contact'style={{color:'rgb(60,60,60)', textDecoration:'none'}}> Contact Us Today! </Link></button></h3>
             </div>
         )
     }
