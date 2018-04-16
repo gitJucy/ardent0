@@ -42,7 +42,7 @@ hr{
   height:8vh;
 }
 #badger{
-  background-color:rgb(190,190,190);
+  background:linear-gradient(to left,transparent,rgba(60,60,60,.7), transparent);
   height:10vh;
   color:rgb(60,60,60);
 }
@@ -51,6 +51,7 @@ hr{
   font-weight:bold;
 }
 #badger-button{
+  padding:1vh;
   font-weight:bold;
   min-width:18vw;
   height:6vh;
@@ -102,7 +103,7 @@ hr{
 }
 .heading-anim h2{
   color:white;
-  font-size:8vw;
+  font-size:6vw;
   text-shadow: 1px 1px 10px rgba(0,0,0,0.8);  
 }
 .heading-anim h3{
@@ -242,6 +243,7 @@ hr{
   min-height:70vh;
   background-image:url('./img/salesbg.jpg');
   background-size:cover;
+  background-attachment: fixed;
 }
 .sales-txt{
   max-width:50vw;
@@ -295,6 +297,7 @@ hr{
   min-height:20vh;
   /* margin-bottom:5vh; */
   background-image:url('./img/bg2.jpg');
+  background-attachment: fixed;
   
 }
 .row0{

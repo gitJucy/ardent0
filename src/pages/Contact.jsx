@@ -18,7 +18,7 @@ class Contact extends Component{
                             <p>Call us: <span id='pop'><a href='tel:1+888-999-8066'>(888) 999-8066</a></span></p>
                             <span><img id='contact-img'src={mail}/></span><hr/>
 
-                            <p>E-Mail: <span id='pop1'>contact@ardentequipment.com</span></p>
+                            <p>E-Mail: <span id='pop1'><a href="mailto:contact@ardentequipment.com">contact@ardentequipment.com</a></span></p>
                         </div>
                         <ContactForm/>
                         <div className='col-sm contact contact-text sales-txt'>
