@@ -32,8 +32,8 @@
 }
 hr{
   color:rgb(246,100,0);
-  background-color:#f66400ff;
-  border:1px solid #f66400ff;
+  background-color:rgb(246,100,0);
+  border:1px solid rgb(246,100,0);
 }
 .fill{
   height:20vh;
@@ -97,7 +97,7 @@ hr{
   background-position: center;
   padding:0px;
   margin-bottom:2vh;
-  min-height:100vh;
+  height:100vh;
   width:auto;
 }
 .heading-anim h2{
@@ -120,11 +120,11 @@ hr{
 }
 #pop{
   font-size:1.2vw;
-  color:#f66400ff;
+  color:rgb(246,100,0);
 }
 #pop1{
   font-size:1vw;
-  color:#f66400ff;
+  color:rgb(246,100,0);
 }
 
 .wording-main{
@@ -367,14 +367,14 @@ hr{
 }
 #finance-button{
   color:white;
-  background-color:#f66400ff;
+  background-color:rgb(246,100,0);
 }
 
 /*Brand slider***************************************************************/
 .carousel .slide{
-  background-color:rgba(60,60,60,0);
+  background-color:rgba(60,60,60,.0);
   font-size:2vw;
-  color:#f66400ff;
+  color:rgb(246,100,0);
   
 }
 /* content page image styling ***********************************************/
@@ -439,7 +439,7 @@ hr{
   box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
 }
 .contact a{
-  color: #f66400ff;
+  color: rgb(246,100,0);
   text-decoration: none;
 }
 #contactmap{
@@ -457,7 +457,7 @@ hr{
 #formsub{
   font-weight:bold;
   min-width:18vw;
-  background-color:#f66400ff;
+  background-color:rgb(246,100,0);
   border:.2vh solid rgb(60,60,60);
   margin:2vh;
   color:rgb(60,60,60);
