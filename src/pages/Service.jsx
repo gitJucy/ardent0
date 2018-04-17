@@ -2,7 +2,7 @@ import React ,{Component} from 'react'
 import Brands from '../components/Brands'
 import Badger from '../components/Badger'
 import hour from '../img/4hour.svg'
-import fork from '../img/fork11.png'
+// import fork from '../img/fork11.png'
 class Service extends Component {
     render() {
         return (
@@ -10,7 +10,7 @@ class Service extends Component {
                 <div className='sales-wrapper'>
                 <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Service & Parts</h1></div> 
                 <div className='row d-flex justify-content-center align-items-center'>
-                       <div className='col-sm sales-txt'>
+                       <div className='col-sm finance-txt'>
                            <p>
                             <img id='badge'src={hour} /><br/>
                            <span id ='pop'>Ardent’s Four Hour Guarantee </span><br/>When you have equipment down, you need it working again fast.  We pledge to have one of our certified technicians at your facility and working to limit your downtime within FOUR HOURS of your call, or your FIRST hour is on us.
@@ -22,7 +22,7 @@ class Service extends Component {
                             </p>
                             
                         </div>
-                        <div className='col-sm f-pix'><img src={fork}/></div>
+                        {/* <div className='col-sm f-pix'><img src={fork}/></div> */}
                     </div>
                   
                 </div>

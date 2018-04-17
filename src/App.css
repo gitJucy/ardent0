@@ -257,7 +257,7 @@ hr{
   /* max-width:80vw; */
   color:white;
   padding:5vw ;
-  background-color:rgb(60,60,60);
+  background:radial-gradient(rgb(80,80,80),rgb(40,40,40));
   box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
   margin:5vh 0;
 }
@@ -266,7 +266,7 @@ hr{
   color:white;
   padding:5vw;
   clear:both;
-  background-color:rgb(100,100,100);
+  background-color:rgb(80,80,80);
   box-shadow: 10px 15px 25px rgba(0,0,0,0.4);
   margin:5vh auto;
 }

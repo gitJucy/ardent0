@@ -12,15 +12,15 @@ class Finance extends Component{
                         <div className='col-sm finance-txt'>
                            <p className=''>
                                <img id='splash'src={fin}/><hr/>
-                               From Start-up and Small business, to Fortune 500 – we offer both in-house and partner finance and leasing programs to fit your specific needs, taking into consideration your:
-                               <ul className='list-unstyled'><br/>
-                                    <span id='pop'><li>Type of product(s)</li></span>
-                                    <span id='pop'><li>Hours of use</li></span>
-                                    <span id='pop'><li>Targeted monthly budget for payments</li></span>
-                                    <span id='pop'><li>Usage patterns</li></span>
-                                    <span id='pop'><li>Facility demands</li></span>
-                                    <span id='pop'><li>Seasonality</li></span>
-                               </ul>
+                               From Start-up and Small business, to Fortune 500 – <span id='pop'>We offer both in-house and partner finance and leasing programs</span> to fit your specific needs, taking into consideration your:
+                               <div className='finance-txt1'>
+                                    <h2>Type of product(s)</h2>
+                                    <h2>Hours of use</h2>
+                                    <h2>Targeted monthly budget for payments</h2>
+                                    <h2>Usage patterns</h2>
+                                    <h2>Facility demands</h2>
+                                    <h2>Seasonality</h2>
+                               </div>
                             </p>
                         </div>
                         {/* <div className='col-sm f-pix'><img src={fork}/></div> */}
