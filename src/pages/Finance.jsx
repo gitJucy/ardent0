@@ -1,7 +1,7 @@
 import React, {Component}from 'react'
 import Badger from '../components/Badger'
 import fin from '../img/finance1.svg'
-import fork from '../img/fork11.png'
+// import fork from '../img/fork11.png'
 class Finance extends Component{
     render() {
         return (
@@ -9,8 +9,8 @@ class Finance extends Component{
                 <div className=' sales-wrapper'>
                 <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Financing</h1></div> 
                 <div className='row d-flex justify-content-center align-items-center'>
-                        <div className='col-sm'>
-                           <p className='sales-txt'>
+                        <div className='col-sm finance-txt'>
+                           <p className=''>
                                <img id='splash'src={fin}/><hr/>
                                From Start-up and Small business, to Fortune 500 – we offer both in-house and partner finance and leasing programs to fit your specific needs, taking into consideration your:
                                <ul className='list-unstyled'><br/>
@@ -23,7 +23,7 @@ class Finance extends Component{
                                </ul>
                             </p>
                         </div>
-                        <div className='col-sm f-pix'><img src={fork}/></div>
+                        {/* <div className='col-sm f-pix'><img src={fork}/></div> */}
                     </div>
                 </div>
                 <Badger />

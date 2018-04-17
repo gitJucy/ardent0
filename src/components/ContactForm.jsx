@@ -5,7 +5,7 @@ class ContactForm extends Component{
         return(
         <div className='col-sm contact contform'>
             <form method='POST' action='https://formspree.io/johnrlucy84@gmail.com'>
-                <span id='pop'>Send us a message.</span><hr/>
+                <h2 id='pop'>Send us a message.</h2><hr/>
             <div className="form-group">
                 <label for="nameInput">Name</label>
                 <input type="Name" name='name'className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name" required/>

@@ -27,7 +27,6 @@ class SaleSlide extends Component{
                    <img src={fork0}/>
                    <img src={fork1}/>
                    <img src={fork2}/>
-                  
                    <img src={fork4}/>
                    <img src={fork5}/>
                    <img src={fork6}/>
