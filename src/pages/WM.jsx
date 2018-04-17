@@ -1,6 +1,7 @@
 import React ,{Component} from 'react'
 import Badger from '../components/Badger'
 import warranty from '../img/warranty.svg'
+import fork from '../img/fork11.png'
 
 class WM extends Component {
     render() {
@@ -26,6 +27,8 @@ class WM extends Component {
                            
                             </p>
                         </div>
+                        <div className='col-sm f-pix'><img src={fork}/></div>
+
                     </div>
                   
                 </div>

@@ -1,6 +1,7 @@
 import React, {Component}from 'react'
 import Badger from '../components/Badger'
 import fin from '../img/finance1.svg'
+import fork from '../img/fork11.png'
 class Finance extends Component{
     render() {
         return (
@@ -22,6 +23,7 @@ class Finance extends Component{
                                </ul>
                             </p>
                         </div>
+                        <div className='col-sm f-pix'><img src={fork}/></div>
                     </div>
                 </div>
                 <Badger />

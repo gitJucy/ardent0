@@ -1,6 +1,7 @@
 import React ,{Component} from 'react'
 import Badger from '../components/Badger'
 import key from '../img/rent.svg'
+import fork from '../img/fork11.png'
 
 class Rentals extends Component {
     render() {
@@ -18,6 +19,8 @@ class Rentals extends Component {
                             Rent-to-Own options available for all equipment
                             </p>
                         </div>
+                        <div className='col-sm f-pix'><img src={fork}/></div>
+
                     </div>
                   
                 </div>
