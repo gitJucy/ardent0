@@ -9,7 +9,7 @@ class FinanceBlock extends Component{
                 <div className='col-sm'>
                 <img id='money'src={logo}/>
                 <p>From Start-up and Small business to Fortune 500 – we offer both in-house and partner finance and leasing programs to fit your specific needs</p>
-                <Link to='/finance'><button id='finance-button'>Click Here For Details</button></Link>
+                <Link to='/finance'><button id='finance-button'>Ardent Financing</button></Link>
                 </div>
             </div>
         );
