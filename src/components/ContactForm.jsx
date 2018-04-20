@@ -16,11 +16,11 @@ class ContactForm extends Component{
             </div>
             <div className="form-group">
                 <label  for="inputPhone">Phone</label>
-                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"name='phone'className="form-control"  aria-describedby="emailHelp" placeholder="123-456-7890"required/>
+                <input type="tel" name='phone'className="form-control"  aria-describedby="emailHelp" placeholder="123-456-7890"required/>
             </div>
             <div className="form-group">
                 <label  for="exampleFormControlTextarea1">Message</label>
-                <textarea name='message'className="form-control" id="exampleFormControlTextarea1" rows="5" placeholder='What can we help you with?'required></textarea>
+                <textarea name='message'className="form-control" id="exampleFormControlTextarea1" rows="5" placeholder='How can we help you?'required></textarea>
             </div>
             
                <button type='submit'id='formsub'className='btn'>Submit</button>

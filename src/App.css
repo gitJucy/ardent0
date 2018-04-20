@@ -180,7 +180,7 @@ hr{
 }  
 .box1{
   background-color: #3D3D3D;
-  background-image: url('./img/clarknew.jpg');
+  background-image: url('./img/clarkaction.jpg');
   background-size:cover ;
   background-repeat: no-repeat;
   background-position: center;
@@ -188,7 +188,7 @@ hr{
 }
 .box2{
   background-color: #3D3D3D;
-  background-image: url('./img/used.jpg');
+  background-image: url('./img/clarknew.jpg');
   background-size:cover ;
   background-repeat: no-repeat;
   background-position: center;
