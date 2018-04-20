@@ -4,7 +4,7 @@ class ContactForm extends Component{
     render(){
         return(
         <div className='col-sm contact contform'>
-            <form method='POST' action='https://formspree.io/johnrlucy84@gmail.com'>
+            <form method='POST' action='https://formspree.io/kirk@ardentequipment.com'>
                 <h2 id='pop'>Send us a message.</h2><hr/>
             <div className="form-group">
                 <label for="nameInput">Name</label>
@@ -22,16 +22,7 @@ class ContactForm extends Component{
                 <label  for="exampleFormControlTextarea1">Message</label>
                 <textarea name='message'className="form-control" id="exampleFormControlTextarea1" rows="5" placeholder='What can we help you with?'required></textarea>
             </div>
-            <div className="form-row align-items-center">
-                
-                <label className="mr-sm-2" for="whenshouldwecall"></label>
-                <select name='call-time'className="custom-select " id="inlineFormCustomSelect">
-                    <option selected>Best Time To Call?</option>
-                    <option value="am">Start of Business Day</option>
-                    <option value="pm">Afternoon</option>
-                    <option value="evening">End of Business Hours</option>
-                </select>
-                </div>
+            
                <button type='submit'id='formsub'className='btn'>Submit</button>
             </form>
        

@@ -20,6 +20,12 @@
   /* box-shadow: 1px 10px 20px rgba(0,0,0,0.6); */
 
 }
+.f-pix{
+  min-height:60vh;
+}
+.f-pix img{
+  height:70vh;
+}
 .content h1{
   color:rgb(60,60,60);
   font-weight:800;
@@ -134,7 +140,7 @@ hr{
   color: rgb(255,255,255);
   font-size: 2vh;
   box-shadow: 8px 10px 10px rgba(0,0,0,0.4);
-  padding:8vh 12vw;
+  padding:8vh 22vw;
   text-align: center;
   margin-bottom:0px;
 }
@@ -355,7 +361,6 @@ hr{
   background-color:white;
 }
 .finance-block{
-  width:100vw;
   max-height:30vh;
   position:relative;
   padding-bottom:5vh;
@@ -366,8 +371,16 @@ hr{
   color:rgb(60,60,60);
 }
 #finance-button{
-  color:white;
-  background-color:rgb(246,100,0);
+  background-color:white;
+  color:rgb(60,60,60);
+  padding:1vh;
+  font-weight:800;
+  min-width:18vw;
+  height:6vh;
+  border:.2vh solid rgb(60,60,60);
+  border-radius:25px;
+  box-shadow: 1px 10px 10px rgba(0,0,0,0.2);
+
 }
 
 /*Brand slider***************************************************************/
@@ -379,12 +392,13 @@ hr{
 }
 /* content page image styling ***********************************************/
 .used-img{
-  background-image:url('./img/used1.jpg');
-  background-size:cover;
-  min-height:50vh;
-  min-width:30vw;
-  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
-  margin:5vh;
+  background-image:url('./img/fork11.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  min-height:70vh;
+  /* box-shadow: 1px 3px 10px rgba(0,0,0,0.4); */
+ margin:0 auto;
+  
   
 }
 .rental-img{
@@ -435,7 +449,7 @@ hr{
   color:white;
   padding:5vw;
   clear:both;
-  background-color:rgb(60,60,60);
+  background:radial-gradient(rgb(80,80,80),rgb(40,40,40));
   box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
 }
 .contact a{
@@ -455,12 +469,17 @@ hr{
   height:5vh;
 }
 #formsub{
-  font-weight:bold;
+  font-size:3vh;
+  margin-top:2vh;
+  background-color:transparent;
+  color:rgb(246,100,0);
+  padding:1vh;
+  font-weight:800;
   min-width:18vw;
-  background-color:rgb(246,100,0);
-  border:.2vh solid rgb(60,60,60);
-  margin:2vh;
-  color:rgb(60,60,60);
+  height:6vh;
+  border:.2vh solid rgb(246,100,0);
+  border-radius:25px;
+  box-shadow: 1px 10px 10px rgba(0,0,0,0.2);
 }
 .contform{
   width:20vw;
@@ -476,13 +495,14 @@ hr{
   height:20vh;
 }
 
-/* 8888888888888888888888888888888888888888888888888888888888888888888888888 */
-/* 8888888888888888888888888888888888888888888888888888888888888888888888888 */
+/* 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
+/* 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
 /*responsive styling */
 @media (max-width:830px){
   .wording-main{
    min-width:90vw;
    margin-top:-5vh;
+   padding:2vh 5vw;
   }
   #pop{
     font-size:2.5vh;
@@ -554,6 +574,8 @@ hr{
   .finance-txt{
     width:80vw;
     background-color:rgb(40,40,40);
+    margin:5vh auto;
+    
   }
   .used-img{
     max-width:60vw;
