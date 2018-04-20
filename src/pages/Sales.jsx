@@ -19,7 +19,7 @@ class Sales extends Component {
                 <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm '>
                             <p className='finance-txt'><img id='badge' src={badge}/><hr/>
-Dynamic Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, and Cascade’s renowned attachments allow us to fill your material handling needs.<hr/>
+Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, and Cascade’s renowned attachments allow us to fill your material handling needs.<hr/>
                             Ardent provides preventative maintenance, total maintenance, and all warranty services to ensure keeping your equipment optimal and running efficiently is easy.<hr/>
                             Your experience before, during and after your purchase is our focus. We will lift with you for years to come.
                             </p>
@@ -36,7 +36,7 @@ Dynamic Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, 
                         </div>
                     </div>
                     <div className='row d-flex justify-content-center'id='s-series'>
-                    <h3>We have the new <img id='ss'src={ss}/> from <img id ='clarklogo' src={clark}/> in stock and ready to demo!</h3>
+                    <h3>We have the new <img id='ss'src={ss}/> from <img id ='clarklogo' src={clark}/> in stock and ready to work!</h3>
                     </div>
                     <div className='row img-wrapper'>
                         <div className='col col-sm-4 featured-img'></div>
