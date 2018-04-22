@@ -14,12 +14,12 @@ class Finance extends Component{
                                <img id='splash'src={fin}/><hr/>
                                From Start-up and Small business, to Fortune 500 – <span id='pop'>We offer both in-house and partner finance and leasing programs</span> to fit your specific needs, taking into consideration your:
                                <div className='finance-txt1'>
-                                    <h2><li>Type of product(s)</li></h2>
-                                    <h2><li>Hours of use</li></h2>
-                                    <h2><li>Targeted monthly budget for payments</li></h2>
-                                    <h2><li>Usage patterns</li></h2>
-                                    <h2><li>Facility demands</li></h2>
-                                    <h2><li>Seasonality</li></h2>
+                                    <h3><li>Type of product(s)</li></h3>
+                                    <h3><li>Hours of use</li></h3>
+                                    <h3><li>Targeted monthly budget for payments</li></h3>
+                                    <h3><li>Usage patterns</li></h3>
+                                    <h3><li>Facility demands</li></h3>
+                                    <h3><li>Seasonality</li></h3>
                                </div>
                             </p>
                         </div>

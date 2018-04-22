@@ -3,7 +3,7 @@ import React,{Component} from 'react'
 class ContactForm extends Component{
     render(){
         return(
-        <div className='col-sm contact contform'>
+        <div className='col-sm contact contform d-flex justify-content-center'>
             <form method='POST' action='https://formspree.io/kirk@ardentequipment.com'>
                 <h2 id='pop'>Send us a message.</h2><hr/>
             <div className="form-group">
