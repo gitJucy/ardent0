@@ -20,7 +20,7 @@ class SalesImage extends Component{
     render(){
         return(
             <div className='img-wrapper'>
-                <h1><a href='https://www.clarkmhc.com'><img src={clark}/></a> Product Spotlight</h1><hr/>
+                <h1 style={{color:'white'}}><a href='https://www.clarkmhc.com'><img src={clark}/></a> Product Spotlight</h1><hr/>
                 <div className ='row'>
             <div className='col col-sm-3 featured-img'></div>
             <div className='col-sm-9'>
