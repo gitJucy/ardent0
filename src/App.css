@@ -302,8 +302,9 @@ hr{
   min-height:50vh;
   /* margin-bottom:5vh; */
   background:radial-gradient(rgb(150,150,150),rgb(60,60,60));
-  background-attachment: fixed;
-  
+}
+#sales-img-header h1{
+  margin: 0 auto;
 }
 .row0, .row1{
   min-height:10vh;
@@ -337,7 +338,7 @@ hr{
   color:rgb(60,60,60);
   padding:1vh;
   font-weight:800;
-  min-width:18vw;
+  min-width:15vw;
   height:6vh;
   border:.2vh solid rgb(60,60,60);
   border-radius:25px;
@@ -545,6 +546,13 @@ hr{
   }
   .finance-txt1 h3{
     font-size:2vh;
+  }
+  #finance-button{
+    padding:1vh;
+    font-size:2.5vh;
+    font-weight:800;
+    min-width:50vw;
+  
   }
   
   .used-img{
