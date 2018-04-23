@@ -301,7 +301,7 @@ hr{
   padding:2vw;
   min-height:50vh;
   /* margin-bottom:5vh; */
-  background:radial-gradient(white,rgb(60,60,60));
+  background:radial-gradient(rgb(150,150,150),rgb(60,60,60));
   background-attachment: fixed;
   
 }

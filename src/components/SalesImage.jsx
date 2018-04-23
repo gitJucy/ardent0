@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import clark from '../img/brands/clark.svg'
 import fork0 from '../img/fork0.png'
 import fork1 from'../img/fork1.png'
 import fork2 from'../img/fork2.png'
@@ -13,25 +14,25 @@ import c25c from '../img/c25c.pdf'
 import cgc55 from '../img/cgc55.pdf'
 import cgc70 from '../img/cgc70.pdf'
 import c55 from '../img/c55.pdf'
-import wpl25 from '../img/wpl25.pdf'
+import c80 from '../img/c80.pdf'
 
 class SalesImage extends Component{
     render(){
         return(
             <div className='img-wrapper'>
-                <h1>Clark Product Spotlight</h1><hr/>
+                <h1><a href='https://www.clarkmhc.com'><img src={clark}/></a> Product Spotlight</h1><hr/>
                 <div className ='row'>
             <div className='col col-sm-3 featured-img'></div>
             <div className='col-sm-9'>
                 <div className='row0 d-flex justify-content-center align-items-center'>
-                    <a href={s25}><img className='col-sm-3 img0' src={fork8}/></a>
-                    <a href={c25c}><img className='col-sm-3 img0'src={fork0}/></a>
-                    <a href={cgc55}><img className='col-sm-3 img0'src={fork2}/></a>
+                    <a href={s25}target='_blank'><img className='col-sm-3 img0' src={fork8}/><p style={{color:'rgb(255,255,255)',textDecoration:'none'}}>S 20/25/30/35</p></a>
+                    <a href={c25c}target='_blank'><img className='col-sm-3 img0'src={fork0}/><p style={{color:'rgb(255,255,255)',textDecoration:'none'}}>S 20/25/30/35 IC-Pneumatic</p></a>
+                    <a href={cgc55}target='_blank'><img className='col-sm-3 img0'src={fork2}/><p style={{color:'rgb(255,255,255)',textDecoration:'none'}}>CGC 40/50/55</p></a>
                 </div>
                 <div className='row1 d-flex justify-content-center align-items-center'>
-                    <a href={cgc70}><img className='col-sm-3 img0'src={fork9}/></a>
-                    <a href={c55}><img className='col-sm-3 img0'src={fork5}/></a>
-                    <a href={wpl25}><img className='col-sm-3 img1'src={fork6}/></a>
+                    <a href={cgc70}target='_blank'><img className='col-sm-3 img0'src={fork9}/><p style={{color:'rgb(255,255,255)',textDecoration:'none'}}>CGC 60/70</p></a>
+                    <a href={c55}target='_blank'><img className='col-sm-3 img0'src={fork5}/><p style={{color:'rgb(255,255,255)',textDecoration:'none'}}>C 40/45/50s/55s</p></a>
+                    <a href={c80}target='_blank'><img className='col-sm-3 img0'src={fork6}/><p style={{color:'rgb(255,255,255)',textDecoration:'none'}}>C 60/70/75/80</p></a>
                 </div>
             </div>
         </div>
