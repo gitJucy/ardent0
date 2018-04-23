@@ -18,7 +18,7 @@ class About extends Component {
                             and challenge drives our desire to be
                             <span id='pop'> The Best</span> in our business. Through 
                             <span id='pop'> Integrity</span> in all we do, <span id='pop'> Compassion </span> 
-                            for our clients, and constantly evolving 
+                            for our clients, and constantly <span id='pop'>Evolving </span>
                             methods and avenues of improvement, <span id='pop'><br/>We Are 
                             Ready to Serve You Now and in the Future. </span>
                             </p>

@@ -6,9 +6,9 @@ import forkr from '../img/forkr.svg'
 class Badger extends Component{
     render(){
         return(
-            <div className='row d-flex justify-content-center'id='badger'>
+            <div className='row d-flex justify-content-center align-items-center'id='badger'>
                
-                <h3><img id='splash1'src={forkr}/> <Link to='/contact'style={{color:'#f66400ff', textDecoration:'none'}}> Contact Us Today! </Link><img  id='splash1'src={fork}/></h3>
+                <h3><span id='badger-button'> <Link to='/contact'style={{backgroundColor:'transparent',color:'white', textDecoration:'none'}}> Contact Us Today! </Link></span></h3>
             </div>
         )
     }

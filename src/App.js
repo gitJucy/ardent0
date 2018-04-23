@@ -14,9 +14,19 @@ import Footer from './components/Footer'
 import ScrollToTop from './components/Scroll'
 import './App.css';
 class App extends Component {
+  state={
+    loading: true
+  };
+  componentDidMount(){
+    setTimeout(()=> this.setState({loading:false}),1000);
+  }
   render() {
-    
+    const {loading}= this.state;
+    if (loading) {
+      return null;
+    }
     return (
+      <div id='app'class='loader'>
       <Router>
         <ScrollToTop>
         <div>
@@ -36,6 +46,7 @@ class App extends Component {
         </div>
         </ScrollToTop>
       </Router>
+      </div>
     );
   }
 }

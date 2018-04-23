@@ -14,28 +14,32 @@
 }
 .headwrap{
   height:15vh;
-  /* color:rgb(60,60,60); */
-  width:50vw;
-  background-color:rgba(60,60,60,.4);
-  /* background-image:url('./img/card.jpg'); */
-  background-size: cover;
-  box-shadow: 1px 10px 20px rgba(0,0,0,0.6);
+  width:48vw;
+  border-bottom:.5vh solid rgb(246,100,0);
+  /* background-color:rgba(246, 100, 0, 1); */
+  /* box-shadow: 1px 10px 20px rgba(0,0,0,0.6); */
 
 }
+.f-pix{
+  min-height:60vh;
+}
+.f-pix img{
+  height:70vh;
+}
 .content h1{
-  color:white;
-  font-weight:bold;
+  color:rgb(60,60,60);
+  font-weight:800;
   font-family:'Raleway',sans-serif;
-  font-size:4vh;
+  font-size:5vh;
   margin:0  0  0 auto;
   padding-right:2vw;
-  text-shadow: 1px 1px 10px rgb(0,0,0);
+  /* text-shadow: 1px 1px 10px rgb(0,0,0); */
   
 }
 hr{
-  color:#f66400ff;
-  background-color:#f66400ff;
-  border:1px solid #f66400ff;
+  color:rgb(246,100,0);
+  background-color:rgb(246,100,0);
+  border:1px solid rgb(246,100,0);
 }
 .fill{
   height:20vh;
@@ -44,9 +48,25 @@ hr{
   height:8vh;
 }
 #badger{
-  background-color:white;
-  height:5vh;
+  background-color:rgb(40,40,40);
+  height:10vh;
   color:rgb(60,60,60);
+}
+#badger h3{
+  font-size:3vh;
+  font-weight:bold;
+}
+#badger-button{
+  padding:1vh;
+  font-weight:bold;
+  min-width:18vw;
+  height:6vh;
+  margin:2vh;
+  border:.2vh solid white;
+  border-radius:25px;
+  box-shadow: 1px 10px 10px rgba(0,0,0,0.2);
+  
+
 }
 
 /*navigation styles********************************************************/
@@ -77,23 +97,23 @@ hr{
 
 /*home page landing screen***************************************************/
 .landing{
-  background-image:url('https://s3.amazonaws.com/ardentindustrial/bg.png');
+  background-image:url('https://s3.amazonaws.com/ardentindustrial/bg.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   padding:0px;
   margin-bottom:2vh;
-  min-height:100vh;
+  height:100vh;
   width:auto;
 }
 .heading-anim h2{
   color:white;
-  font-size:4vw;
+  font-size:6vw;
   text-shadow: 1px 1px 10px rgba(0,0,0,0.8);  
 }
 .heading-anim h3{
   color:white;
-  font-size:1vw;
+  font-size:3vw;
   text-shadow: 1px 1px 10px rgba(0,0,0,0.8);
 }
 
@@ -106,8 +126,13 @@ hr{
 }
 #pop{
   font-size:1.2vw;
-  color:#f66400ff;
+  color:rgb(246,100,0);
 }
+#pop1{
+  font-size:1vw;
+  color:rgb(246,100,0);
+}
+
 .wording-main{
   width:40vw;  
   background-color:rgb(60,60,60);
@@ -115,7 +140,7 @@ hr{
   color: rgb(255,255,255);
   font-size: 2vh;
   box-shadow: 8px 10px 10px rgba(0,0,0,0.4);
-  padding:8vh 12vw;
+  padding:8vh 22vw;
   text-align: center;
   margin-bottom:0px;
 }
@@ -155,7 +180,7 @@ hr{
 }  
 .box1{
   background-color: #3D3D3D;
-  background-image: url('./img/clarknew.jpg');
+  background-image: url('./img/clarkaction.jpg');
   background-size:cover ;
   background-repeat: no-repeat;
   background-position: center;
@@ -163,7 +188,7 @@ hr{
 }
 .box2{
   background-color: #3D3D3D;
-  background-image: url('./img/used.jpg');
+  background-image: url('./img/clarknew.jpg');
   background-size:cover ;
   background-repeat: no-repeat;
   background-position: center;
@@ -217,20 +242,39 @@ hr{
 /*sales page stytling*********************************************************/
 .sales-wrapper{
   min-height:90vh;
-  padding:5vh 0;
+  padding:0 0;
 }
 .sales{
   min-height:70vh;
-  background-image:url('./img/salesbg.png');
+  background-image:url('./img/salesbg.jpg');
   background-size:cover;
+  background-attachment: fixed;
 }
 .sales-txt{
+  max-width:50vw;
   color:white;
-  padding:5vw;
+  padding:2vw;
   clear:both;
   background-color:rgb(60,60,60);
   box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
-  margin:5vh 5vw;
+  margin:5vh 2vw;
+}
+.finance-txt{
+  /* max-width:80vw; */
+  color:white;
+  padding:5vw ;
+  background:radial-gradient(rgb(80,80,80),rgb(40,40,40));
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+  margin:5vh 0;
+}
+.finance-txt1{
+  max-width:60vw;
+  color:white;
+  padding:5vw;
+  clear:both;
+  background-color:rgb(80,80,80);
+  box-shadow: 10px 15px 25px rgba(0,0,0,0.4);
+  margin:5vh auto;
 }
 .sales-img{
   background-size:contain;
@@ -245,7 +289,7 @@ hr{
 }
 .featured-img{
   min-height:20vw;
-  background-image: url('./img/fork7.png');
+  background-image: url('./img/badge.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -255,59 +299,20 @@ hr{
   position: relative;
   background-size: cover;
   padding:2vw;
-  min-height:20vh;
-  margin-bottom:5vh;
-  background-image:url('./img/bg2.jpg');
-  
+  min-height:50vh;
+  /* margin-bottom:5vh; */
+  background:radial-gradient(rgb(150,150,150),rgb(60,60,60));
 }
-.row0{
-  height:10vw;
+#sales-img-header h1{
+  margin: 0 auto;
+  max-width:80vw;
 }
-.row1{
-  height:10vw;
+.row0, .row1{
+  min-height:10vh;
 }
-.img0, .img1, .img2, .img3, .img4, .img5, .img6, .img7{
+.img0, .img1{
   margin:2vw;
-}
-.img0{
-  background-image: url('./img/fork8.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img1{
-  background-image: url('./img/fork0.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img2{
-  background-image: url('./img/fork2.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img3{
-  background-image: url('./img/fork3.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img4{
-  background-image: url('./img/fork9.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img5{
-  background-image: url('./img/fork5.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img6{
-  background-image: url('./img/fork6.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img7{
-  background-image: url('./img/fork1.png');
-  background-repeat: no-repeat;
-  background-size: contain;
+  min-width:20vw;
 }
 #ss{
   max-width:20vw;
@@ -319,31 +324,41 @@ hr{
   max-height:30vh;
   position:relative;
   padding-bottom:5vh;
+  background-color:white;
 }
 #money{
   height:8vh;
   color:rgb(60,60,60);
 }
 #finance-button{
-  color:white;
-  background-color:#f66400ff;
+  background-color:white;
+  color:rgb(60,60,60);
+  padding:1vh;
+  font-weight:800;
+  min-width:15vw;
+  height:6vh;
+  border:.2vh solid rgb(60,60,60);
+  border-radius:25px;
+  box-shadow: 1px 10px 10px rgba(0,0,0,0.2);
+
 }
 
 /*Brand slider***************************************************************/
 .carousel .slide{
-  background-color:rgba(60,60,60,0);
+  background-color:rgba(60,60,60,.0);
   font-size:2vw;
-  color:#f66400ff;
+  color:rgb(246,100,0);
   
 }
 /* content page image styling ***********************************************/
 .used-img{
-  background-image:url('./img/used1.jpg');
-  background-size:cover;
-  min-height:50vh;
-  min-width:30vw;
-  box-shadow: 1px 3px 10px rgba(0,0,0,0.4);
-  margin:5vh;
+  background-image:url('./img/fork11.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  min-height:70vh;
+  /* box-shadow: 1px 3px 10px rgba(0,0,0,0.4); */
+ margin:0 auto;
+  
   
 }
 .rental-img{
@@ -394,16 +409,17 @@ hr{
   color:white;
   padding:5vw;
   clear:both;
-  background-color:rgb(60,60,60);
+  background:radial-gradient(rgb(80,80,80),rgb(40,40,40));
   box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
 }
 .contact a{
-  color: #f66400ff;
+  color: rgb(246,100,0);
   text-decoration: none;
 }
 #contactmap{
   min-height:30vh;
-  width:25vw;
+  min-width:30vw;
+  
 }
 #inlineFormCustomSelect{
   color:rgb(60,60,60);
@@ -413,10 +429,20 @@ hr{
   height:5vh;
 }
 #formsub{
-  width:33vw;
-  background-color:#f66400ff;
-  margin:2vh;
-  color:rgb(60,60,60);
+  font-size:3vh;
+  margin-top:2vh;
+  background-color:white;
+  color:rgb(246,100,0);
+  padding:0 5vw;
+  font-weight:800;
+  min-width:18vw;
+  height:6vh;
+  border:.2vh solid rgb(246,100,0);
+  border-radius:25px;
+  box-shadow: 1px 10px 10px rgba(0,0,0,0.2);
+}
+.contform{
+  width:20vw;
 }
 
 #splash{
@@ -429,17 +455,22 @@ hr{
   height:20vh;
 }
 
-/* 8888888888888888888888888888888888888888888888888888888888888888888888888 */
-/* 8888888888888888888888888888888888888888888888888888888888888888888888888 */
+/* 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
+/* 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
 /*responsive styling */
 @media (max-width:830px){
   .wording-main{
    min-width:90vw;
    margin-top:-5vh;
+   padding:2vh 5vw;
   }
   #pop{
     font-size:2.5vh;
   }
+  #pop1{
+    font-size:2vh;
+  }
+  
   .heading-anim h2{
     font-size:5vh;
   }
@@ -485,14 +516,41 @@ hr{
     margin-top:10vh;
     font-size:1.8vh;
   }
-  .img-wrapper{
-    margin-bottom:2vh;
-  }
   
   .sales-img{
-    max-width:60vw;
-    min-height:30vh;
+    min-width:90vw;
+    height:auto;
   }
+  .sales-img img{
+    padding:1vw;
+  }
+  .sales-txt{
+    min-width:80vw;
+    margin:5vh auto;
+  }
+  .row0, .row1{
+    min-height:20vh;
+  }
+  
+  .f-pix{
+    display:none;
+  }
+  .finance-txt{
+    width:80vw;
+    background-color:rgb(40,40,40);
+    margin:5vh auto;
+    
+  }
+  .finance-txt1 h3{
+    font-size:2vh;
+  }
+  #finance-button{
+    font-size:2.5vh;
+    font-weight:800;
+    min-width:50vw;
+  
+  }
+  
   .used-img{
     max-width:60vw;
     min-height:30vh;
@@ -521,15 +579,21 @@ hr{
     background-size: cover;
     background-position: top;
   }
-
   .carousel .slide{
     background-color:rgba(60,60,60,o);
-    font-size:2vh;
+    font-size:3vh;
     font-weight:bold;
+    width:80vw;
   }
   
   #contactmap{
     min-height:30vh;
+    width:60vw;
+  }
+  .contform{
+    width:80vw;
+  }
+  #formsub{
     width:80vw;
   }
   
@@ -541,7 +605,7 @@ hr{
   .content{
     font-size:2vw;
   }
-  
+ 
 }
 @media (max-width:900px) and (orientation:landscape){
   h2{
@@ -550,13 +614,16 @@ hr{
   .heading-anim h2{
     font-size:10vh;
   }
-
+  .sales-img{
+    margin:0px 0;
+}
+  .sales-img img{
+    height:auto;
+    max-width:40vw;
+   }
 
   .img-wrapper{
     margin-bottom:5vh;
-  }
-  .sales-img{
-    min-height:60vh;
   }
   
   #badger {

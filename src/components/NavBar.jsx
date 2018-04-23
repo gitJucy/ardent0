@@ -37,7 +37,7 @@ class NavBar extends Component{
                     </li>
 
                     <li>
-                       <a href='tel:1+888-999-8066' ><span className='navbar-text'><img className='splash'src={phone}/>(888) 999-8066</span></a>
+                       <a href='tel:1+888-999-8066' ><span className='navbar-text' style={{color:'rgb(246,100,0)'}}><img className='splash'src={phone}/>(888) 999-8066</span></a>
                     </li>
                     </ul>
                 </div>

@@ -1,6 +1,7 @@
 import React ,{Component} from 'react'
 import Badger from '../components/Badger'
 import warranty from '../img/warranty.svg'
+// import fork from '../img/fork11.png'
 
 class WM extends Component {
     render() {
@@ -9,13 +10,12 @@ class WM extends Component {
                 <div className='sales-wrapper'>
                    <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Our Warranties</h1></div> 
                     <div className='row d-flex justify-content-center align-items-center'>
-                        <div className='col-sm WM-img'></div>
-                        <div className='col-sm'>
-                           <p className='sales-txt'>
+                        <div className='col-sm finance-txt'>
+                           <p className=''>
                                <img id='badge'src={warranty}/><hr/>
-                           To allow you to focus on your primary business and not your equipment, Ardent Industrial Equipment offers <span id='pop'> efficiency</span> through maintenance and warranty plans. 
+                           <div className='finance-txt1'>To allow you to focus on your primary business and not your equipment, Ardent Industrial Equipment offers <span id='pop'> efficiency</span> through maintenance and warranty plans. 
                            Available for both new and pre-owned equipment, we can provide maintenance plans to ensure <span id='pop'> optimal performance</span> and <span id='pop'> minimal downtime.</span> Our warranty plans provide <span id='pop'> peace of mind</span> against unexpected and unbudgeted breakdowns of major components.  
-                           Ardent Industrial Equipment offers customizable solutions for your specific needs. <hr />
+                           Ardent Industrial Equipment offers customizable solutions for your specific needs. </div><hr />
                            <span id='pop'>Available options to support you include:</span><br />
                            <li>New Truck Extended Warranties</li>
                            <li>Used Truck Extended Warranties</li>
@@ -27,6 +27,8 @@ class WM extends Component {
                            
                             </p>
                         </div>
+                        {/* <div className='col-sm f-pix'><img src={fork}/></div> */}
+
                     </div>
                   
                 </div>
