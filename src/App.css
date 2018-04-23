@@ -305,6 +305,7 @@ hr{
 }
 #sales-img-header h1{
   margin: 0 auto;
+  max-width:80vw;
 }
 .row0, .row1{
   min-height:10vh;
@@ -312,10 +313,6 @@ hr{
 .img0, .img1{
   margin:2vw;
   min-width:20vw;
-}
-.img1{
-  min-width:15vw;
-  
 }
 #ss{
   max-width:20vw;
@@ -548,7 +545,6 @@ hr{
     font-size:2vh;
   }
   #finance-button{
-    padding:1vh;
     font-size:2.5vh;
     font-weight:800;
     min-width:50vw;

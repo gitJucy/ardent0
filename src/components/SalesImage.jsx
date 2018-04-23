@@ -21,7 +21,6 @@ class SalesImage extends Component{
         return(
             <div id='sales-img-header'className='row img-wrapper'>
                 <h1 style={{color:'white'}}><a href='https://www.clarkmhc.com'><img src={clark}/></a> Product Spotlight</h1>
-                <div className ='row'>
             <div className='col col-sm-3 featured-img'></div>
             <div className='col-sm-9'>
                 <div className='row0 d-flex justify-content-center align-items-center'>
@@ -35,7 +34,6 @@ class SalesImage extends Component{
                     <a href={c80}target='_blank'><img className='col-sm-3 img0'src={fork6}/><p style={{color:'rgb(255,255,255)',textDecoration:'none'}}>C 60/70/75/80</p></a>
                 </div>
             </div>
-        </div>
         </div>
         );
     }
