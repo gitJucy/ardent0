@@ -289,7 +289,7 @@ hr{
 }
 .featured-img{
   min-height:20vw;
-  background-image: url('./img/fork7.png');
+  background-image: url('./img/badge.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -299,60 +299,22 @@ hr{
   position: relative;
   background-size: cover;
   padding:2vw;
-  min-height:20vh;
+  min-height:50vh;
   /* margin-bottom:5vh; */
   background:radial-gradient(white,rgb(60,60,60));
   background-attachment: fixed;
   
 }
-.row0{
-  height:10vw;
+.row0, .row1{
+  min-height:10vh;
 }
-.row1{
-  height:10vw;
-}
-.img0, .img1, .img2, .img3, .img4, .img5, .img6, .img7{
+.img0, .img1{
   margin:2vw;
-}
-.img0{
-  background-image: url('./img/fork8.png');
-  background-repeat: no-repeat;
-  background-size: contain;
+  min-width:20vw;
 }
 .img1{
-  background-image: url('./img/fork0.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img2{
-  background-image: url('./img/fork2.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img3{
-  background-image: url('./img/fork3.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img4{
-  background-image: url('./img/fork9.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img5{
-  background-image: url('./img/fork5.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img6{
-  background-image: url('./img/fork6.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img7{
-  background-image: url('./img/fork1.png');
-  background-repeat: no-repeat;
-  background-size: contain;
+  min-width:15vw;
+  
 }
 #ss{
   max-width:20vw;
@@ -568,6 +530,10 @@ hr{
     min-width:80vw;
     margin:5vh auto;
   }
+  .row0, .row1{
+    min-height:20vh;
+  }
+  
   .f-pix{
     display:none;
   }
