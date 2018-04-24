@@ -22,8 +22,8 @@ class SalesImage extends Component{
             <div className='row img-wrapper'>
                 <div id='sales-img-header'><h1 style={{color:'white'}}><a href='https://www.clarkmhc.com'><img src={clark}/></a> Product Spotlight</h1></div>
             <div className='row'>
-            <div className='col col-sm-3 featured-img'></div>
-            <div className='col-sm-9'>
+            <div className='col-sm-3 container-fluid featured-img'></div>
+            <div className='col-sm-9 container-fluid'>
                 <div className='row0 d-flex justify-content-center align-items-center'>
                     <a href={s25}target='_blank'><img className='col-sm-3 img0' src={fork8}/><p style={{color:'rgb(255,255,255)',textDecoration:'none'}}>S 20/25/30/35</p></a>
                     <a href={s25p}target='_blank'><img className='col-sm-3 img0'src={fork0}/><p style={{color:'rgb(255,255,255)',textDecoration:'none'}}>S 20/25/30/35 IC-Pneumatic</p></a>

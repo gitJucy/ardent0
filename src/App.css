@@ -477,6 +477,9 @@ hr{
   .heading-anim h3{
     font-size:2vh;
   }
+  .content{
+    overflow-x: hidden;
+  }
   .content h1{
     width:80vw;
     margin:auto;
@@ -528,10 +531,23 @@ hr{
     min-width:80vw;
     margin:5vh auto;
   }
+  .img-wrapper{
+    overflow-x:hidden;
+  }
   .row0, .row1{
     min-height:20vh;
   }
-  
+  .featured-img{
+    padding:0px;
+    /* max-width:70vw; */
+  }
+  .img0{
+    padding:0vw;
+    margin:0px;
+  }
+  #s-series{
+    padding:2vw;
+  }
   .f-pix{
     display:none;
   }
@@ -539,7 +555,6 @@ hr{
     width:80vw;
     background-color:rgb(40,40,40);
     margin:5vh auto;
-    
   }
   .finance-txt1 h3{
     font-size:2vh;
@@ -548,7 +563,6 @@ hr{
     font-size:2.5vh;
     font-weight:800;
     min-width:50vw;
-  
   }
   
   .used-img{
