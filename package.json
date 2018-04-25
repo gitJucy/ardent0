@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot",
+    "build": "react-scripts build && react-snapshot && react-snapshot-sitemap --output domain https://www.ardentequipment.com",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
@@ -32,5 +32,8 @@
       "/contact"
     ],
     "snapshotDelay": 1000
+  },
+  "devDependencies": {
+    "react-snapshot-sitemap": "^0.1.0"
   }
 }
