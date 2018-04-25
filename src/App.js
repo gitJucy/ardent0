@@ -12,7 +12,7 @@ import Contact from './pages/Contact'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import ScrollToTop from './components/Scroll'
-import sitemap from './pages/sitemap'
+import Sitemap from './pages/sitemap'
 import './App.css';
 class App extends Component {
   state={
@@ -41,7 +41,7 @@ class App extends Component {
           <Route path='/warranty' component={WM}/>
           <Route path='/finance' component={Finance}/>
           <Route path='/contact' component={Contact}/>
-          <Route path='/sitemap' component={sitemap}/>
+          <Route path='/sitemap' component={Sitemap}/>
           <Route path='*' component={Error} />
         </Switch>
         <Footer/>
