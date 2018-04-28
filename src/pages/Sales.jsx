@@ -8,7 +8,6 @@ import brand from '../img/brand.svg'
 import badge from '../img/badge.png'
 import Badger from '../components/Badger'
 import SaleSlide from '../components/SaleSlider'
-import Spotlight from '../components/Spotlight'
 import SalesImage from '../components/SalesImage'
 
 
