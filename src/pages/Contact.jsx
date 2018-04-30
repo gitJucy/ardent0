@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {Helmet} from 'react-helmet'
 import ContactForm from '../components/ContactForm'
 import mail from '../img/email.svg'
 import clock from '../img/clock.svg'
@@ -8,6 +9,14 @@ class Contact extends Component{
     render(){
         return(
             <div className='sales content container-fluid '>
+            <Helmet>
+                <meta charset='utf-8'/>
+                <title>Contact Ardent Equipment</title>
+                <meta name='description' content='We can be reached by phone at 888-999-8066 or email at info@ardentequipment.com.  Ardent industrial Equipment is located at 114 Owens Industrial in Savannah GA '/>
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+                <meta name="theme-color" content="#000000"/>
+                <meta name="google-site-verification" content="mbkAe5tudYu8225OWgUzF7W5cTsX2OPsTUtz0OkSdAk" />    
+            </Helmet>
                 <div className='sales-wrapper'>
                 <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Contact Us</h1></div> 
                 <div className='row d-flex justify-content-center align-items-center'>
