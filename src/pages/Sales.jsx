@@ -1,4 +1,5 @@
 import React ,{Component} from 'react'
+import {Helmet} from 'react-helmet'
 import ss from '../img/brands/S-Series.png'
 import FinanceBlock from '../components/FinanceBlock'
 import clark from '../img/brands/clark.svg'
@@ -15,12 +16,21 @@ class Sales extends Component {
     render() {
         return (
             <div className='sales content container-fluid'>
+                <Helmet>
+                    <meta charset='utf-8'/>
+                    <title>New Equipment dealer in Savannah GA featuring Clark Forklifts, JLGs full line and Cascade Attachments</title>
+                    <meta name='description' content=' Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, and Cascade’s renowned attachments allow us to fill your material handling needs.
+                    Ardent of Savannah Georgia provides preventative maintenance, total maintenance, and all warranty services to ensure keeping your material handling equipment optimal and running efficiently is easy.'/>
+                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+                    <meta name="theme-color" content="#000000"/>
+                    <meta name="google-site-verification" content="mbkAe5tudYu8225OWgUzF7W5cTsX2OPsTUtz0OkSdAk" />    
+                </Helmet>
                 <div className='sales-wrapper'>
                 <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>New Equipment</h1></div> 
                 <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm '>
                             <p className='finance-txt'><img id='badge' src={badge}/><hr/>
-Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, and Cascade’s renowned attachments allow us to fill your material handling needs.<hr/>
+                            Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, and Cascade’s renowned attachments allow us to fill your material handling needs.<hr/>
                             Ardent provides preventative maintenance, total maintenance, and all warranty services to ensure keeping your equipment optimal and running efficiently is easy.<hr/>
                             Your experience before, during and after your purchase is our focus. We will lift with you for years to come.
                             </p>

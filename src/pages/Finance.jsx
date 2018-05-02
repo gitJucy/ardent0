@@ -1,4 +1,5 @@
 import React, {Component}from 'react'
+import {Helmet} from 'react-helmet'
 import Badger from '../components/Badger'
 import fin from '../img/finance1.svg'
 // import fork from '../img/fork11.png'
@@ -6,11 +7,19 @@ class Finance extends Component{
     render() {
         return (
             <div className='sales content container-fluid'>
+                <Helmet>
+                    <meta charset='utf-8'/>
+                    <title>Ardent Industrial Equipment Finance Options</title>
+                    <meta name='description' content='Ardent Industrial Equipment provides in-house and partner finance solutions to help you get the equipment you need to get working.'/>
+                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+                    <meta name="theme-color" content="#000000"/>
+                    <meta name="google-site-verification" content="mbkAe5tudYu8225OWgUzF7W5cTsX2OPsTUtz0OkSdAk" />    
+                </Helmet>
                 <div className=' sales-wrapper'>
                 <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Financing</h1></div> 
                 <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm finance-txt'>
-                           <p className=''>
+                           <div>
                                <img id='splash'src={fin}/><hr/>
                                From Start-up and Small business, to Fortune 500 – <span id='pop'>We offer both in-house and partner finance and leasing programs</span> to fit your specific needs, taking into consideration your:
                                <div className='finance-txt1'>
@@ -21,9 +30,8 @@ class Finance extends Component{
                                     <h3><li>Facility demands</li></h3>
                                     <h3><li>Seasonality</li></h3>
                                </div>
-                            </p>
+                            </div>
                         </div>
-                        {/* <div className='col-sm f-pix'><img src={fork}/></div> */}
                     </div>
                 </div>
                 <Badger />

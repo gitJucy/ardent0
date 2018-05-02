@@ -26,7 +26,7 @@ class App extends Component {
       return null;
     }
     return (
-      <div id='app'class='loader'>
+      <div id='app'className='loader'>
       <Router>
         <ScrollToTop>
         <div>
