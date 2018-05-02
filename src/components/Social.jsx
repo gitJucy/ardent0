@@ -9,10 +9,10 @@ class Social extends Component {
                 <div className='d-flex justify-content-center'>
                     <ul className="nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#"><img src={link}alt='Linked In'/></a>
+                            <a className="nav-link" href="https://www.linkedin.com/company/ardent-industrial-equipment/"><img src={link}alt='Linked In'/></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#"><img src={ig} alt='instagram'/></a>
+                            <a className="nav-link" href="https://www.instagram.com/ardentindustrialequipment"><img src={ig} alt='instagram'/></a>
                         </li>
                     </ul>
                 </div>

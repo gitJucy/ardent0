@@ -1,4 +1,5 @@
 import React ,{Component} from 'react'
+import {Helmet} from 'react-helmet'
 import Brands from '../components/Brands'
 import Badger from '../components/Badger'
 import hour from '../img/4hour.svg'
@@ -7,6 +8,14 @@ class Service extends Component {
     render() {
         return (
             <div className='sales content container-fluid'>
+                <Helmet>
+                    <meta charset='utf-8'/>
+                    <title>Ardent Services All Makes and Models of Material Handling Equipment</title>
+                    <meta name='description' content='Ardent services all material handling equipment and is ready to fill your needs with an extensively stocked parts department.  We are proud to offer a "four hour guarantee" and peace of mind to our valued customers.'/>
+                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+                    <meta name="theme-color" content="#000000"/>
+                    <meta name="google-site-verification" content="mbkAe5tudYu8225OWgUzF7W5cTsX2OPsTUtz0OkSdAk" />    
+                </Helmet>
                 <div className='sales-wrapper'>
                 <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Service & Parts</h1></div> 
                 <div className='row d-flex justify-content-center align-items-center'>
@@ -22,9 +31,7 @@ class Service extends Component {
                             </p>
                             
                         </div>
-                        {/* <div className='col-sm f-pix'><img src={fork}/></div> */}
                     </div>
-                  
                 </div>
                 <Badger />
             </div>
