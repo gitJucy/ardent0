@@ -17,13 +17,9 @@ class Sales extends Component {
         return (
             <div className='sales content container-fluid'>
                 <Helmet>
-                    <meta charset='utf-8'/>
                     <title>New Equipment dealer in Savannah GA featuring Clark Forklifts, JLGs full line and Cascade Attachments</title>
                     <meta name='description' content=' Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, and Cascade’s renowned attachments allow us to fill your material handling needs.
                     Ardent of Savannah Georgia provides preventative maintenance, total maintenance, and all warranty services to ensure keeping your material handling equipment optimal and running efficiently is easy.'/>
-                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-                    <meta name="theme-color" content="#000000"/>
-                    <meta name="google-site-verification" content="mbkAe5tudYu8225OWgUzF7W5cTsX2OPsTUtz0OkSdAk" />    
                 </Helmet>
                 <div className='sales-wrapper'>
                 <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>New Equipment</h1></div> 

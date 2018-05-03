@@ -9,12 +9,8 @@ class WM extends Component {
         return (
             <div className='sales content container-fluid'>
                 <Helmet>
-                    <meta charset='utf-8'/>
                     <title>Ardent's Customizable Solutions for Maintenance and Warranty Service.</title>
                     <meta name='description' content='Ardent wants you to focus on your primary business, not your tools.  That is why we offer efficiency and peace of mind through customizable warranty packages to suit your needs.  Visit our Savannah GA location to talk with one of our representatives and learn how we can protect you from the unexpected.' />
-                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-                    <meta name="theme-color" content="#000000"/>
-                    <meta name="google-site-verification" content="mbkAe5tudYu8225OWgUzF7W5cTsX2OPsTUtz0OkSdAk" />    
                 </Helmet>
                 <div className='sales-wrapper'>
                    <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Our Warranties</h1></div> 
