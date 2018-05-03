@@ -9,13 +9,9 @@ class Rentals extends Component {
         return (
             <div className='sales content container-fluid'>
                 <Helmet>
-                    <meta charset='utf-8'/>
                     <title>Equipment Rentals From Ardent Industrial Equipment</title>
                     <meta name='description' content='Whether you need a forklift or other material handling equipment for a day, a week, a month, or a year we want to help. 
                     Rent-to-Own options available for all equipment'/>
-                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-                    <meta name="theme-color" content="#000000"/>
-                    <meta name="google-site-verification" content="mbkAe5tudYu8225OWgUzF7W5cTsX2OPsTUtz0OkSdAk" />    
                 </Helmet>
 
                 <div className='sales-wrapper'>

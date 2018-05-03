@@ -8,12 +8,8 @@ class Used extends Component {
         return (
             <div className='sales content container-fluid'>
                 <Helmet>
-                    <meta charset='utf-8'/>
                     <title>Used Material Handling Equipment and Forklifts in Savannah GA</title>
                     <meta name='description' content='Ardent provides the highest quality used equipment regardless of brand.  No matter what your needs or price range, Ardent has the equipment that can get you working.'/>
-                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-                    <meta name="theme-color" content="#000000"/>
-                    <meta name="google-site-verification" content="mbkAe5tudYu8225OWgUzF7W5cTsX2OPsTUtz0OkSdAk" />    
                 </Helmet>
 
                 <div className='sales-wrapper'>

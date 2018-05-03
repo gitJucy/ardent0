@@ -8,12 +8,8 @@ class Finance extends Component{
         return (
             <div className='sales content container-fluid'>
                 <Helmet>
-                    <meta charset='utf-8'/>
                     <title>Ardent Industrial Equipment Finance Options</title>
                     <meta name='description' content='Ardent Industrial Equipment provides in-house and partner finance solutions to help you get the equipment you need to get working.'/>
-                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-                    <meta name="theme-color" content="#000000"/>
-                    <meta name="google-site-verification" content="mbkAe5tudYu8225OWgUzF7W5cTsX2OPsTUtz0OkSdAk" />    
                 </Helmet>
                 <div className=' sales-wrapper'>
                 <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>Financing</h1></div> 
