@@ -16,7 +16,7 @@ class Finance extends Component{
                 <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm finance-txt'>
                            <div>
-                               <img id='splash'src={fin}/><hr/>
+                               <img id='splash'src={fin} alt='bank icon'/><hr/>
                                From Start-up and Small business, to Fortune 500 – <span id='pop'>We offer both in-house and partner finance and leasing programs</span> to fit your specific needs, taking into consideration your:
                                <div className='finance-txt1'>
                                     <h3><li>Type of product(s)</li></h3>

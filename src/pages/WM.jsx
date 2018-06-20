@@ -17,7 +17,7 @@ class WM extends Component {
                     <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm finance-txt'>
                            <p className=''>
-                               <img id='badge'src={warranty}/><hr/>
+                               <img id='badge'src={warranty} alt='certification icon'/><hr/>
                            <div className='finance-txt1'>To allow you to focus on your primary business and not your equipment, Ardent Industrial Equipment offers <span id='pop'> efficiency</span> through maintenance and warranty plans. 
                            Available for both new and pre-owned equipment, we can provide maintenance plans to ensure <span id='pop'> optimal performance</span> and <span id='pop'> minimal downtime.</span> Our warranty plans provide <span id='pop'> peace of mind</span> against unexpected and unbudgeted breakdowns of major components.  
                            Ardent Industrial Equipment offers customizable solutions for your specific needs. </div><hr />

@@ -14,7 +14,7 @@ class NavBar extends Component{
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav ml-auto navbuttons align-items-center" >
                     <li className="nav-item dropdown">
-                        <a href='#' className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Equipment</a>
+                        <a className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Equipment</a>
                         <div className='dropdown-menu'aria-labelledby="navbarDropdown"data-toggle='collapse' data-target='#navbarNavDropdown'>
                             <Link to='/sales' className="nav-link">New Equipment</Link>
                             <Link to='/used' className="nav-link">Used Equipment</Link>
@@ -37,7 +37,7 @@ class NavBar extends Component{
                     </li>
 
                     <li>
-                       <a href='tel:1+888-999-8066' ><span className='navbar-text' style={{color:'rgb(246,100,0)'}}><img className='splash'src={phone}/>(888) 999-8066</span></a>
+                       <a href='tel:1+888-999-8066' ><span className='navbar-text' style={{color:'rgb(246,100,0)'}}><img className='splash'src={phone} alt='phone icon'/>(888) 999-8066</span></a>
                     </li>
                     </ul>
                 </div>

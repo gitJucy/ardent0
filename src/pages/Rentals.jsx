@@ -19,7 +19,7 @@ class Rentals extends Component {
                 <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm'>
                            <div className='finance-txt'>
-                               <img id='splash'src={key}/><hr/>
+                               <img id='splash'src={key} alt='key icon'/><hr/>
                                <div className='finance-txt1'>
                                     Modern, late model, well-kept rental fleet. <br/>
                                     Our on the ground and off site rental resources can fill virtually every need. <hr/>
@@ -28,7 +28,7 @@ class Rentals extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-sm f-pix'><img src={fork}/></div>
+                        <div className='col-sm f-pix'><img src={fork} alt='man driving a very nice rented forklift'/></div>
 
                     </div>
                   

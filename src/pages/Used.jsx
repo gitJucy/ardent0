@@ -17,7 +17,7 @@ class Used extends Component {
                 <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm '>
                             
-                            <p className='finance-txt'><img id ='splash'src={check}/><hr/><div className='finance-txt1'>Ardent takes pride in providing the highest quality pre-owned equipment to our clients, regardless of brand. We take the time to find the right equipment for your needs for the right price. </div>
+                            <p className='finance-txt'><img id ='splash'src={check} alt='checkmark icon'/><hr/><div className='finance-txt1'>Ardent takes pride in providing the highest quality pre-owned equipment to our clients, regardless of brand. We take the time to find the right equipment for your needs for the right price. </div>
                             </p>
                         </div>
                         <div className='col-sm used-img'></div>

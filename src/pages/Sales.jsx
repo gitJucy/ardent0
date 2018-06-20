@@ -25,7 +25,7 @@ class Sales extends Component {
                 <div className='headwrap row d-flex justify-conent-end align-items-center'><h1>New Equipment</h1></div> 
                 <div className='row d-flex justify-content-center align-items-center'>
                         <div className='col-sm '>
-                            <p className='finance-txt'><img id='badge' src={badge}/><hr/>
+                            <p className='finance-txt'><img id='badge' src={badge} alt='clark 100 year plaque'/><hr/>
                             Clark forklifts ranging from 3,000 to 18,000 pounds, JLG’s full line, and Cascade’s renowned attachments allow us to fill your material handling needs.<hr/>
                             Ardent provides preventative maintenance, total maintenance, and all warranty services to ensure keeping your equipment optimal and running efficiently is easy.<hr/>
                             Your experience before, during and after your purchase is our focus. We will lift with you for years to come.
@@ -37,15 +37,15 @@ class Sales extends Component {
                        
                         <div className='col-sm'>
                            <p className='finance-txt'>
-                               <img id='splash' src={brand}/><hr/>
-                            <img id ='clarklogo'src={clark}/> – The original inventor of the forklift has now reinvented themselves with cutting edge equipment to meet every need and has the support infrastructure to keep you running. <hr/>
-                            <img id ='clarklogo'src={jlg}/> – As the world’s leading designer and manufacturer of access equipment, JLG helps us go above and beyond to support our clients.  <hr/>
-                            <img id ='clarklogo'src={cascade}/> – A global leader in the design, manufacture and marketing of materials handling equipment and related technologies, Cascade products reliably get the job done, whatever that job may be. 
+                               <img id='splash' src={brand}  alt='checklist logo'/><hr/>
+                            <img id ='clarklogo'src={clark} alt='clark logo'/> – The original inventor of the forklift has now reinvented themselves with cutting edge equipment to meet every need and has the support infrastructure to keep you running. <hr/>
+                            <img id ='clarklogo'src={jlg} alt='jlg logo'/> – As the world’s leading designer and manufacturer of access equipment, JLG helps us go above and beyond to support our clients.  <hr/>
+                            <img id ='clarklogo'src={cascade} alt='cascade logo'/> – A global leader in the design, manufacture and marketing of materials handling equipment and related technologies, Cascade products reliably get the job done, whatever that job may be. 
                             </p>
                         </div>
                     </div>
                     <div className='row d-flex justify-content-center'id='s-series'>
-                    <h3>We have the new <img id='ss'src={ss}/> from <img id ='clarklogo' src={clark}/> in stock and ready to work!</h3>
+                    <h3>We have the new <img id='ss'src={ss} alt='s series logo'/> from <img id ='clarklogo' src={clark} alt='clark logo'/> in stock and ready to work!</h3>
                     </div>
                     <SalesImage/>
                     <FinanceBlock />
